@@ -20,3 +20,6 @@ https://www.nuget.org/packages/Amazon.Extensions.CognitoAuthentication/1.0.3
 
 AWSSDK.SecurityToken  
 https://www.nuget.org/packages/AWSSDK.SecurityToken/3.3.102.17
+
+AWSSDK.DynamoDBv2
+https://www.nuget.org/packages/AWSSDK.DynamoDBv2/3.3.101.59
