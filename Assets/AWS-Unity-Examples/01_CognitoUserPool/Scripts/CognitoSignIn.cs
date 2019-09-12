@@ -18,7 +18,7 @@ namespace AWSUnity
 
         void Awake()
         {
-            CognitoClient = new CognitoClient(Configs.IdentityPoolId, Configs.IdentityRegion, Configs.ClientId, Configs.ClientSecret);
+            CognitoClient = new CognitoClient(Configs.UserPoolId, Configs.UserPoolRegion, Configs.ClientId, Configs.ClientSecret);
             SignInButton.onClick.AddListener(OnClickSignIn);
         }
 
@@ -28,6 +28,7 @@ namespace AWSUnity
             {
                 AuthFlowResponse response = await CognitoClient.StartWithSrpAuthAsync(Username.text, Password.text);
                 MessageText.text = "TokenType: " + response.AuthenticationResult.TokenType;
+                Debug.Log("IdToken: " + response.AuthenticationResult.IdToken);
             }
             catch(Exception ex)
             {

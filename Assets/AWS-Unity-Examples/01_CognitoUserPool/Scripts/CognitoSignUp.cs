@@ -21,7 +21,7 @@ namespace AWSUnity
 
         void Awake()
         {
-            CognitoClient = new CognitoClient(Configs.IdentityPoolId, Configs.IdentityRegion, Configs.ClientId, Configs.ClientSecret);
+            CognitoClient = new CognitoClient(Configs.UserPoolId, Configs.UserPoolRegion, Configs.ClientId, Configs.ClientSecret);
             SignUpButton.onClick.AddListener(OnClickSignUp);
             ConfirmButton.onClick.AddListener(OnClickConfirm);
         }
