@@ -1386,15 +1386,6 @@
             Exception thrown by the SDK for errors that occur within the SDK.
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.AmazonClientException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the AmazonClientException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.Runtime.AmazonDateTimeUnmarshallingException">
             <summary>
             This exception is thrown when there is a parse error on the response back from AWS.
@@ -1404,23 +1395,6 @@
             <summary>
             The string value which could not be converted into a valid DateTime instance.
             </summary>
-        </member>
-        <member name="M:Amazon.Runtime.AmazonDateTimeUnmarshallingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the AmazonDateTimeUnmarshallingException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="M:Amazon.Runtime.AmazonDateTimeUnmarshallingException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
         </member>
         <member name="E:Amazon.Runtime.AmazonServiceClient.BeforeMarshallingEvent">
             <summary>
@@ -1495,23 +1469,6 @@
             The HTTP status code from the service response
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.AmazonServiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the AmazonServiceException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="M:Amazon.Runtime.AmazonServiceException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
-        </member>
         <member name="T:Amazon.Runtime.AmazonUnmarshallingException">
             <summary>
             This exception is thrown when there is a parse error on the response back from AWS.
@@ -1526,23 +1483,6 @@
             <summary>
             The entire response body that caused this exception, if available.
             </summary>
-        </member>
-        <member name="M:Amazon.Runtime.AmazonUnmarshallingException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the AmazonSimpleDBException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="M:Amazon.Runtime.AmazonUnmarshallingException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
         </member>
         <member name="T:Amazon.Runtime.AmazonWebServiceRequest">
             <summary>
@@ -1567,40 +1507,6 @@
             signer for the service that this request is part of.
             </summary>
             <returns>A signer for this request, or null.</returns>
-        </member>
-        <member name="P:Amazon.Runtime.AmazonWebServiceRequest.TimeoutInternal">
-            <summary>
-            Overrides the default request timeout value.
-            </summary>
-            <remarks>
-            <para>
-            If the value is set, the value is assigned to the Timeout property of the HTTPWebRequest/HttpClient object used
-            to send requests.
-            </para>
-            <para>
-            Please specify a timeout value only if the operation will not complete within the default intervals
-            specified for an HttpWebRequest/HttpClient.
-            </para>
-            </remarks>
-            <exception cref="T:System.ArgumentNullException">The timeout specified is null.</exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">The timeout specified is less than or equal to zero and is not Infinite.</exception>
-            <seealso cref="P:System.Net.HttpWebRequest.Timeout"/>
-            <seealso cref="P:System.Net.Http.HttpClient.Timeout"/>
-        </member>
-        <member name="P:Amazon.Runtime.AmazonWebServiceRequest.ReadWriteTimeoutInternal">
-            <summary>
-            Overrides the default read-write timeout value.
-            </summary>
-            <remarks>
-            <para>
-            If the value is set, the value is assigned to the ReadWriteTimeout property of the HTTPWebRequest/WebRequestHandler object used
-            to send requests.
-            </para>
-            <exception cref="T:System.ArgumentNullException">The timeout specified is null.</exception>
-            <exception cref="T:System.ArgumentOutOfRangeException">The timeout specified is less than or equal to zero and is not Infinite.</exception>
-            </remarks>
-            <seealso cref="P:System.Net.HttpWebRequest.ReadWriteTimeout"/>
-            <seealso cref="P:System.Net.Http.WebRequestHandler.ReadWriteTimeout"/>
         </member>
         <member name="T:Amazon.Runtime.AmazonWebServiceResponse">
             <summary>
@@ -1738,10 +1644,6 @@
             </summary>
         </member>
         <member name="T:Amazon.Runtime.Internal.ClientContext">
-            <summary>
-            This class composes Client Context header for Amazon Web Service client.
-            It contains information like app title, version code, version name, client id, OS platform etc.
-            </summary>
             <summary>
             This class composes Client Context header for Amazon Web Service client.
             It contains information like app title, version code, version name, client id, OS platform etc.
@@ -2347,15 +2249,6 @@
             <summary>
             This exception is thrown if there are problems signing the request.
             </summary>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.Auth.SignatureException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the SignatureException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.Runtime.Internal.AutoConstructedList`1">
             <summary>
@@ -3559,23 +3452,6 @@
             True if a node was read, false if there are no more elements to read./
             </returns>
         </member>
-        <member name="M:Amazon.Runtime.Internal.Transform.HttpWebRequestResponseData.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the HttpWebRequestResponseData class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.Transform.HttpWebRequestResponseData.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
-        </member>
         <member name="T:Amazon.Runtime.Internal.Util.CachingWrapperStream">
             <summary>
             A stream which caches the contents of the underlying stream as it reads it.
@@ -3889,16 +3765,6 @@
             number of bytes requested if that many bytes are not currently available,
             or zero (0) if the end of the stream has been reached.
             </returns>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.Util.HashStream.Close">
-            <summary>
-            Closes the underlying stream and finishes calculating the hash.
-            If an ExpectedHash is specified and is not equal to the calculated hash,
-            this method will throw an AmazonClientException.
-            </summary>
-            <exception cref="T:Amazon.Runtime.AmazonClientException">
-            If ExpectedHash is set and is different from CalculateHash that the stream calculates.
-            </exception>
         </member>
         <member name="P:Amazon.Runtime.Internal.Util.HashStream.CanSeek">
             <summary>
@@ -4432,12 +4298,6 @@
             </summary>
             <param name="baseStream">The base stream to wrap.</param>
         </member>
-        <member name="M:Amazon.Runtime.Internal.Util.NonDisposingWrapperStream.Close">
-            <summary>
-            The Close implementation for this wrapper stream
-            does not close the underlying stream.
-            </summary>
-        </member>
         <member name="M:Amazon.Runtime.Internal.Util.NonDisposingWrapperStream.Dispose(System.Boolean)">
             <summary>
             The Dispose implementation for this wrapper stream
@@ -4725,7 +4585,7 @@
             True if the stream supports writing; otherwise, false.
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.Internal.Util.WrapperStream.Close">
+        <member name="M:Amazon.Runtime.Internal.Util.WrapperStream.Dispose(System.Boolean)">
             <summary>
             Closes the current stream and releases any resources (such as sockets and
             file handles) associated with the current stream.
@@ -5293,6 +5153,66 @@
             Subclass of IniFile that allows INI sections to be read with the profile keyword in front of the section name.
             </summary>
         </member>
+        <member name="T:Amazon.Runtime.Internal.Util.AsyncHelpers">
+            <summary>
+            This is a utility class to be used in last resort for code paths that are synchronous but need to call an asynchronous method.
+            This should never be used for methods that are called at high volume as this utility class has a performance cost. For example this 
+            class was added for the refreshing credentials like Cognito which would need to use this about once an hour.
+            
+            This code is taken from: http://stackoverflow.com/questions/5095183/how-would-i-run-an-async-taskt-method-synchronously
+            which is licensed under Creative Commons Attribution-ShareAlike 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.Internal.Util.AsyncHelpers.RunSync(System.Func{System.Threading.Tasks.Task})">
+            <summary>
+            Execute's an async Task&lt;T&gt; which has a void return value synchronously
+            </summary>
+            <param name="task">Task&lt;T&gt; method to execute</param>
+        </member>
+        <member name="M:Amazon.Runtime.Internal.Util.AsyncHelpers.RunSync``1(System.Func{System.Threading.Tasks.Task{``0}})">
+            <summary>
+            Execute's an async Task&lt;T&gt; method which has a T return type synchronously
+            </summary>
+            <typeparam name="T">Return Type</typeparam>
+            <param name="task">Task&lt;T&gt; method to execute</param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.Runtime.Internal.Util.WebProxy">
+            <summary>
+            Custom WebProxy implementation that creates a webproxy based on 
+            user inputs(Host name and port number)
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.Internal.Util.WebProxy.#ctor(System.Uri)">
+            <summary>
+            Set the ProxyUri
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.Internal.Util.WebProxy.#ctor(System.String,System.Int32)">
+            <summary>
+            Create a Uri based on the user inputs(Host name and port number)
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.Internal.Util.WebProxy.ProxyUri">
+            <summary>
+            Proxy Uri property
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.Internal.Util.WebProxy.Credentials">
+            <summary>
+            Proxy Credentials property
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.Internal.Util.WebProxy.GetProxy(System.Uri)">
+            <summary>
+            Getter to fetch the set proxy
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.Internal.Util.WebProxy.IsBypassed(System.Uri)">
+            <summary>
+            Method to determine if the proxy should be bypassed when accessing an internet source
+            </summary>
+        </member>
         <member name="T:Amazon.Runtime.Internal.AsyncRunner">
             <summary>
             This class is no longer used anymore and should be avoided as it is just meant
@@ -5438,11 +5358,6 @@
             <returns>
             If a suppressed 404 is present, returns true, else returns false.
             </returns>
-        </member>
-        <member name="T:Amazon.Runtime.Internal.WebExceptionHandler">
-            <summary>
-            The exception handler for HttpErrorResponseException exception.
-            </summary>
         </member>
         <member name="T:Amazon.Runtime.Internal.CallbackHandler">
             <summary>
@@ -5788,22 +5703,13 @@
             The execution context, it contains the request and response context.
             </param>
         </member>
-        <member name="M:Amazon.Runtime.Internal.HttpErrorResponseException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+        <member name="M:Amazon.Runtime.Internal.Unmarshaller.UnmarshallAsync(Amazon.Runtime.IExecutionContext)">
             <summary>
-            Constructs a new instance of the HttpErrorResponseException class with serialized data.
+            Unmarshalls the HTTP response.
             </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpErrorResponseException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Sets the <see cref="T:System.Runtime.Serialization.SerializationInfo" /> with information about the exception.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is a null reference (Nothing in Visual Basic). </exception>
+            <param name="executionContext">
+            The execution context, it contains the request and response context.
+            </param>
         </member>
         <member name="T:Amazon.Runtime.Internal.HttpHandler`1">
             <summary>
@@ -5860,147 +5766,6 @@
             <summary>
             Disposes the HTTP handler.
             </summary>
-        </member>
-        <member name="T:Amazon.Runtime.Internal.HttpWebRequestFactory">
-            <summary>
-            The request factory for System.Net.HttpWebRequest.
-            </summary>    
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpWebRequestFactory.#ctor(Amazon.Runtime.Internal.IAmazonSecurityProtocolManager)">
-            <summary>
-            Some AWS services like Cloud 9 require at least TLS 1.1. Version of .NET Framework 4.5 and earlier 
-            do not eanble TLS 1.1 and TLS 1.2 by default. This code adds those protocols if using an earlier 
-            version of .NET that explicitly set the protocol and didn't have TLS 1.1 and TLS 1.2. 
-            </summary>
-            <param name="amazonSecurityProtocolManager"></param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpWebRequestFactory.#ctor(Amazon.Runtime.Internal.IAmazonSecurityProtocolManager,Amazon.Runtime.Internal.Util.ILogger)">
-            <summary>
-            Some AWS services like Cloud 9 require at least TLS 1.1. Version of .NET Framework 4.5 and earlier 
-            do not eanble TLS 1.1 and TLS 1.2 by default. This code adds those protocols if using an earlier 
-            version of .NET that explicitly set the protocol and didn't have TLS 1.1 and TLS 1.2. 
-            </summary>
-            <param name="amazonSecurityProtocolManager"></param>
-            <param name="logger"></param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpWebRequestFactory.CreateHttpRequest(System.Uri)">
-            <summary>
-            Creates an HTTP request for the given URI.
-            </summary>
-            <param name="requestUri">The request URI.</param>
-            <returns>An HTTP request.</returns>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpWebRequestFactory.SetIsProtocolUpdated(System.Boolean)">
-            <summary>
-            This method is used for unit testing purposes. It allows setting of the flag
-            that indicates protocol setting was attempted.
-            </summary>
-            <param name="value">The new value</param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpWebRequestFactory.Dispose">
-            <summary>
-            Disposes the HttpWebRequestFactory.
-            </summary>
-        </member>
-        <member name="T:Amazon.Runtime.Internal.HttpRequest">
-            <summary>
-            HTTP request wrapper for System.Net.HttpWebRequest.
-            </summary>    
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.#ctor(System.Uri)">
-            <summary>
-            Constructor for HttpRequest.
-            </summary>
-            <param name="requestUri">The request URI.</param>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.HttpRequest.Request">
-            <summary>
-            The underlying HTTP web request.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.HttpRequest.Method">
-            <summary>
-            The HTTP method or verb.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.HttpRequest.RequestUri">
-            <summary>
-            The request URI.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.GetResponse">
-            <summary>
-            Returns the HTTP response.
-            </summary>
-            <returns>The HTTP response.</returns>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.GetRequestContent">
-            <summary>
-            Gets a handle to the request content.
-            </summary>
-            <returns>The request content.</returns>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.WriteToRequestBody(System.IO.Stream,System.IO.Stream,System.Collections.Generic.IDictionary{System.String,System.String},Amazon.Runtime.IRequestContext)">
-            <summary>
-            Writes a stream to the request body.
-            </summary>
-            <param name="requestContent">The destination where the content stream is written.</param>
-            <param name="contentStream">The content stream to be written.</param>
-            <param name="contentHeaders">HTTP content headers.</param>
-            <param name="requestContext">The request context.</param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.WriteToRequestBody(System.IO.Stream,System.Byte[],System.Collections.Generic.IDictionary{System.String,System.String})">
-            <summary>
-            Writes a byte array to the request body.
-            </summary>
-            <param name="requestContent">The destination where the content stream is written.</param>
-            <param name="content">The content stream to be written.</param>
-            <param name="contentHeaders">HTTP content headers.</param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.Abort">
-            <summary>
-            Aborts the HTTP request.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.GetRequestContentAsync">
-            <summary>
-            Gets a handle to the request content.
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.GetResponseAsync(System.Threading.CancellationToken)">
-            <summary>
-            Returns the HTTP response.
-            </summary>
-            <param name="cancellationToken">A cancellation token that can be used to cancel the asynchronous operation.</param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.ConfigureRequest(Amazon.Runtime.IRequestContext)">
-            <summary>
-            Configures a request as per the request context.
-            </summary>
-            <param name="requestContext">The request context.</param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.SetRequestHeaders(System.Collections.Generic.IDictionary{System.String,System.String})">
-            <summary>
-            Sets the headers on the request.
-            </summary>
-            <param name="headers">A dictionary of header names and values.</param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.Dispose">
-            <summary>
-            Disposes the HttpRequest.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.HttpRequest.SetupProgressListeners(System.IO.Stream,System.Int64,System.Object,System.EventHandler{Amazon.Runtime.StreamTransferProgressArgs})">
-            <summary>
-            Sets up the progress listeners
-            </summary>
-            <param name="originalStream">The content stream</param>
-            <param name="progressUpdateInterval">The interval at which progress needs to be published</param>
-            <param name="sender">The objects which is trigerring the progress changes</param>
-            <param name="callback">The callback which will be invoked when the progress changed event is trigerred</param>
-            <returns>an <see cref="T:Amazon.Runtime.Internal.Util.EventStream"/> object, incase the progress is setup, else returns the original stream</returns>
         </member>
         <member name="T:Amazon.Runtime.Internal.PipelineHandler">
             <summary>
@@ -6410,18 +6175,6 @@
             <param name="requestContext"></param>
             <param name="exception"></param>
         </member>
-        <member name="M:Amazon.Runtime.Internal.RuntimeAsyncResult.Dispose(System.Boolean)">
-            <summary>
-            Implements the Dispose pattern
-            </summary>
-            <param name="disposing">Whether this object is being disposed via a call to Dispose
-            or garbage collected.</param>
-        </member>
-        <member name="M:Amazon.Runtime.Internal.RuntimeAsyncResult.Dispose">
-            <summary>
-            Disposes of all managed and unmanaged resources.
-            </summary>
-        </member>
         <member name="T:Amazon.Runtime.Internal.CSMFallbackConfigChain">
             <summary>
             This class gets the CSM configuration if set.
@@ -6673,66 +6426,6 @@
             as returned by the http client.
             </summary>
         </member>
-        <member name="T:Amazon.Runtime.Internal.ClientContextConfig">
-            <summary>
-            Provides information for Client Context header. 
-            Client Context header needs information like App title, version code, version name, package name etc.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.AppTitle">
-            <summary>
-            The title of your app. For example, "My App".
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.AppVersionName">
-            <summary>
-            The version for your app. For example, V3.0.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.AppVersionCode">
-            <summary>
-            The version code of your app. For example, 3.0.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.AppPackageName">
-            <summary>
-            The name of your app package. For example, com.your_company.your_app.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.Platform">
-            <summary>
-            The operating system of the device. For example, iPhoneOS.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.PlatformVersion">
-            <summary>
-            The version of the operating system of the device. For example, 8.1.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.Locale">
-            <summary>
-            The locale of the device. For example, en_US.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.Make">
-            <summary>
-            The manufacturer of the device. For example, Samsung.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.Internal.ClientContextConfig.Model">
-            <summary>
-            The model of the device. For example, Nexus.
-            If this property is not null, the value would be used in Client Context header.
-            </summary>
-        </member>
         <member name="T:Amazon.Runtime.ClientConfig">
             <summary>
             This class is the base class of all the configurations settings to connect
@@ -6741,7 +6434,7 @@
             <summary>
             This class is the base class of all the configurations settings to connect
             to a service.
-            </summary>    
+            </summary>
         </member>
         <member name="P:Amazon.Runtime.ClientConfig.ServiceVersion">
             <summary>
@@ -6894,11 +6587,6 @@
             Credentials to use with a proxy.
             </summary>
         </member>
-        <member name="P:Amazon.Runtime.ClientConfig.TcpKeepAlive">
-            <summary>
-            Specifies the TCP keep-alive values to use for service requests.
-            </summary>
-        </member>
         <member name="P:Amazon.Runtime.ClientConfig.Timeout">
             <remarks>
             <para>
@@ -7001,6 +6689,32 @@
             else returns client timeout value.
             </summary>        
         </member>
+        <member name="P:Amazon.Runtime.ClientConfig.CacheHttpClient">
+            <summary>
+            <para>
+            This is a switch used for performance testing and is not intended for production applications 
+            to change. This switch may be removed in a future version of the SDK as the .NET Core platform matures.
+            </para>
+            <para>
+            If true, the HttpClient is cached and reused for every request made by the service client 
+            and shared with other service clients.
+            </para>
+            <para>
+            For the .NET Core platform this is default to true because the HttpClient manages the connection
+            pool.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.ClientConfig.HttpClientCacheSize">
+            <summary>
+            If CacheHttpClient is set to true then HttpClientCacheSize controls the number of HttpClients cached.
+            <para>
+            On Windows the default value is 1 since the underlying native implementation does not have throttling constraints
+            like the non Windows Curl based implementation. For non Windows based platforms the default is the value return from 
+            System.Environment.ProcessorCount.
+            </para>
+            </summary>
+        </member>
         <member name="P:Amazon.Runtime.ClientConfig.ReadWriteTimeout">
             <summary>
             Overrides the default read-write timeout value.
@@ -7016,6 +6730,21 @@
             </remarks>
             <seealso cref="P:System.Net.HttpWebRequest.ReadWriteTimeout"/>
         </member>
+        <member name="M:Amazon.Runtime.ClientConfig.GetWebProxy">
+            <summary>
+            Returns a WebProxy instance configured to match the proxy settings
+            in the client configuration.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.ClientConfig.SetWebProxy(System.Net.IWebProxy)">
+            <summary>
+            Unpacks the host, port and any credentials info into the instance's
+            proxy-related fields.
+            Unlike the SetWebProxy implementation on .NET 3.5/4.5,the Host and the Port are not reconstructed from the 
+            input proxyuri
+            </summary>
+            <param name="proxy">The proxy details</param>
+        </member>
         <member name="P:Amazon.Runtime.ClientConfig.ProxyHost">
             <summary>
             Gets and sets of the ProxyHost property.
@@ -7023,60 +6752,46 @@
         </member>
         <member name="P:Amazon.Runtime.ClientConfig.ProxyPort">
             <summary>
-            Gets and sets the ProxyPort property.
+            Gets and sets of the ProxyPort property.
             </summary>
         </member>
-        <member name="P:Amazon.Runtime.ClientConfig.ProxyBypassList">
+        <member name="P:Amazon.Runtime.ClientConfig.MaxConnectionsPerServer">
             <summary>
-            Gets and sets the ProxyBypassList property; a collection
-            of regular expressions denoting the set of endpoints for
-            which the configured proxy host will be bypassed.
-            </summary>
-            <remarks>
-             For more information on bypass lists 
-             see https://msdn.microsoft.com/en-us/library/system.net.webproxy.bypasslist%28v=vs.110%29.aspx.
-            </remarks>
-        </member>
-        <member name="P:Amazon.Runtime.ClientConfig.ProxyBypassOnLocal">
-            <summary>
-            Gets and sets the ProxyBypassOnLocal property.
-            If set true requests to local addresses bypass the configured
-            proxy.
+            Get or set the value to use for <see cref="P:System.Net.Http.HttpClientHandler.MaxConnectionsPerServer"/> on requests.
+            If this property is null, <see cref="P:System.Net.Http.HttpClientHandler.MaxConnectionsPerServer"/>
+            will be left at its default value of <see cref="F:System.Int32.MaxValue"/>.
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.ClientConfig.GetWebProxy">
+        <!-- Badly formed XML comment ignored for member "P:Amazon.Runtime.ClientConfig.HttpClientFactory" -->
+        <member name="M:Amazon.Runtime.ClientConfig.CacheHttpClients(Amazon.Runtime.IClientConfig)">
             <summary>
-            Returns a WebProxy instance configured to match the proxy settings
-            in the client configuration.
+            Returns true if the clients should be cached by HttpRequestMessageFactory, false otherwise.
             </summary>
+            <param name="clientConfig"></param>
+            <returns></returns>
         </member>
-        <member name="M:Amazon.Runtime.ClientConfig.SetWebProxy(System.Net.WebProxy)">
+        <member name="M:Amazon.Runtime.ClientConfig.DisposeHttpClients(Amazon.Runtime.IClientConfig)">
             <summary>
-            Unpacks the host, port and any credentials info into the instance's
-            proxy-related fields.
+            Returns true if the SDK should dispose HttpClients after one use, false otherwise.
             </summary>
-            <param name="proxy">The proxy details</param>
+            <param name="clientConfig"></param>
+            <returns></returns>
         </member>
-        <member name="P:Amazon.Runtime.ClientConfig.MaxIdleTime">
+        <member name="M:Amazon.Runtime.ClientConfig.CreateConfigUniqueString(Amazon.Runtime.IClientConfig)">
             <summary>
-            Gets and sets the max idle time set on the ServicePoint for the WebRequest.
-            Default value is 50 seconds (50,000 ms) unless ServicePointManager.MaxServicePointIdleTime is set,
-            in which case ServicePointManager.MaxServicePointIdleTime will be used as the default.
+             Create a unique string used for caching the HttpClient based on the settings that are used from the ClientConfig that are set on the HttpClient.
             </summary>
+            <param name="clientConfig"></param>
+            <returns></returns>
         </member>
-        <member name="P:Amazon.Runtime.ClientConfig.ConnectionLimit">
-            <summary>
-            Gets and sets the connection limit set on the ServicePoint for the WebRequest.
-            Default value is 50 connections unless ServicePointManager.DefaultConnectionLimit is set in 
-            which case ServicePointManager.DefaultConnectionLimit will be used as the default.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.ClientConfig.UseNagleAlgorithm">
-            <summary>
-            Gets or sets a Boolean value that determines whether the Nagle algorithm is used on connections managed by the ServicePoint object used
-            for requests to AWS. This is defaulted to false for lower latency with responses that return small amount of data. This is the opposite
-            default than ServicePoint.UseNagleAlgorithm which is optimized for large responses like web pages or images.
-            </summary>
+        <member name="M:Amazon.Runtime.ClientConfig.UseGlobalHttpClientCache(Amazon.Runtime.IClientConfig)">
+             <summary>
+             Determines if HttpClients created with the given IClientConfig should be cached at the SDK
+             client level, or cached globally.
+            
+             If there is no HttpClientFactory assigned and proxy or proxy credentials are set
+             this returns false because those properties can't be serialized as part of the key in the global http client cache.
+             </summary>
         </member>
         <member name="T:Amazon.Runtime.ConstantClass">
             <summary>
@@ -8365,15 +8080,6 @@
             <param name="msg"></param>
             <param name="inner"></param>
         </member>
-        <member name="M:Amazon.Runtime.FederatedAuthenticationCancelledException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the FederatedAuthenticationCancelledException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.Runtime.FederatedAuthenticationFailureException">
             <summary>
             Custom exception type thrown when authentication for a user fails due to
@@ -8392,15 +8098,6 @@
             </summary>
             <param name="msg"></param>
             <param name="inner"></param>
-        </member>
-        <member name="M:Amazon.Runtime.FederatedAuthenticationFailureException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the FederatedAuthenticationFailureException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.Runtime.FederatedAWSCredentials">
             <summary>
@@ -8720,246 +8417,6 @@
             if no credential file could be found.
             </returns>
         </member>
-        <member name="T:Amazon.Runtime.AppConfigAWSCredentials">
-            <summary>
-            Obtains credentials from access key/secret key or AWSProfileName settings
-            in the application's app.config or web.config file.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.AppConfigAWSCredentials.GetCredentials">
-            <summary>
-            Returns an instance of ImmutableCredentials for this instance
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.Runtime.CredentialRequestCallbackRequiredException">
-            <summary>
-            Exception thrown on validation of a StoredProfileFederatedCredentials instance if the role profile
-            is configured to use a non-default user identity and the QueryUserCredentialCallback on the
-            instance has not been set.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.CredentialRequestCallbackRequiredException.#ctor(System.String)">
-            <summary>
-            Initializes a new exception instance.
-            </summary>
-            <param name="msg"></param>
-        </member>
-        <member name="M:Amazon.Runtime.CredentialRequestCallbackRequiredException.#ctor(System.String,System.Exception)">
-            <summary>
-            Initializes a new exception instance.
-            </summary>
-            <param name="msg"></param>
-            <param name="innerException"></param>
-        </member>
-        <member name="M:Amazon.Runtime.CredentialRequestCallbackRequiredException.#ctor(System.Exception)">
-            <summary>
-            Initializes a new exception instance.
-            </summary>
-            <param name="innerException"></param>
-        </member>
-        <member name="M:Amazon.Runtime.CredentialRequestCallbackRequiredException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the CredentialRequestCallbackRequiredException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="T:Amazon.Runtime.EnvironmentAWSCredentials">
-            <summary>
-            Credentials that are retrieved from ConfigurationManager.AppSettings
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.EnvironmentAWSCredentials.#ctor">
-            <summary>
-            Constructs an instance of EnvironmentAWSCredentials and attempts
-            to load AccessKey and SecretKey from ConfigurationManager.AppSettings
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.EnvironmentAWSCredentials.GetCredentials">
-            <summary>
-            Returns an instance of ImmutableCredentials for this instance
-            </summary>
-            <returns></returns>
-        </member>
-        <member name="T:Amazon.Runtime.StoredProfileFederatedCredentials">
-            <summary>
-            Temporary credentials that are created following successful authentication with
-            a federated endpoint supporting SAML.
-            </summary>
-            <remarks>
-            1. Currently only the SDK store supports profiles that contain the necessary data to support
-            authentication and role-based credential generation. The ini-format files used by the AWS CLI
-            and some other SDKs are not supported at this time.
-            <br/>
-            2. In order to use the StoredProfileFederatedCredentials class the AWSSDK.SecurityToken assembly
-            must be available to your application at runtime.
-            </remarks>
-        </member>
-        <member name="P:Amazon.Runtime.StoredProfileFederatedCredentials.CustomCallbackState">
-            <summary>
-            Custom state to return to the registered callback to handle credential requests.
-            The data will be contained in the CredentialRequestCallbackArgs instance supplied 
-            to the callback.
-            </summary>
-        </member>
-        <member name="F:Amazon.Runtime.StoredProfileFederatedCredentials.MinimumCredentialTimespan">
-            <summary>
-            The minimum allowed timespan for generated credentials, per STS documentation.
-            </summary>
-        </member>
-        <member name="F:Amazon.Runtime.StoredProfileFederatedCredentials.MaximumCredentialTimespan">
-            <summary>
-            The maximum allowed timespan for generated credentials, per STS documentation.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.StoredProfileFederatedCredentials.ProfileName">
-            <summary>
-            Name of the profile being used.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.StoredProfileFederatedCredentials.ProfilesLocation">
-            <summary>
-            Location of the profiles, if used.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.StoredProfileFederatedCredentials.ProfileData">
-            <summary>
-            The data about the SAML endpoint and any required user credentials parsed from the
-            profile.
-            </summary>
-        </member>
-        <member name="T:Amazon.Runtime.StoredProfileFederatedCredentials.RequestUserCredential">
-            <summary>
-            Callback signature for obtaining user credentials that may be needed for authentication.
-            </summary>
-            <param name="args">
-            Data about the credential demand including any custom state data that was supplied
-            when the callback was registered.
-            </param>
-            <returns>
-            The network credential to use in user authentication. Return null to signal the user
-            declined to provide credentials and authentication should not proceed.
-            </returns>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.#ctor">
-            <summary>
-            Constructs an instance of StoredProfileFederatedCredentials using the profile name specified
-            in the App.config. If no profile name is specified then the default credentials are used.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.#ctor(System.String)">
-            <summary>
-            Constructs an instance of StoredProfileFederatedCredentials. Credentials will be searched
-            for using the profileName parameter.
-            </summary>
-            <param name="profileName">The profile name to search for credentials for</param>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.#ctor(System.String,System.String)">
-            <summary>
-            <para>
-            Constructs an instance of StoredProfileFederatedCredentials. After construction call one of the Authenticate
-            methods to authenticate the user/process and obtain temporary AWS credentials.
-            </para>
-            <para>
-            For users who are domain joined (the role profile does not contain user identity information) the temporary
-            credentials will be refreshed automatically as needed. Non domain-joined users (those with user identity
-            data in the profile) are required to re-authenticate when credential refresh is required. An exception is
-            thrown when attempt is made to refresh credentials in this scenario. The consuming code of this class
-            should catch the exception and prompt the user for credentials, then call Authenticate to re-initialize
-            with a new set of temporary AWS credentials.
-            </para>
-            </summary>
-            <param name="profileName">
-            The name of the profile holding the necessary role data to enable authentication and credential generation.
-            </param>
-            <param name="profilesLocation">Reserved for future use.</param>
-            <remarks>
-            The ini-format credentials file is not currently supported for SAML role profiles.
-            </remarks>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.#ctor(System.String,System.String,System.Net.WebProxy)">
-            <summary>
-            <para>
-            Constructs an instance of StoredProfileFederatedCredentials. After construction call one of the Authenticate
-            methods to authenticate the user/process and obtain temporary AWS credentials.
-            </para>
-            <para>
-            For users who are domain joined (the role profile does not contain user identity information) the temporary
-            credentials will be refreshed automatically as needed. Non domain-joined users (those with user identity
-            data in the profile) are required to re-authenticate when credential refresh is required. An exception is
-            thrown when attempt is made to refresh credentials in this scenario. The consuming code of this class
-            should catch the exception and prompt the user for credentials, then call Authenticate to re-initialize
-            with a new set of temporary AWS credentials.
-            </para>
-            </summary>
-            <param name="profileName">
-            The name of the profile holding the necessary role data to enable authentication and credential generation.
-            </param>
-            <param name="profilesLocation">Reserved for future use.</param>
-            <param name="proxySettings">
-            Null or proxy settings to be used during the HHTPS authentication calls when generating credentials.
-            /// </param>
-            <remarks>The ini-format credentials file is not currently supported for SAML role profiles.</remarks>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.SetCredentialCallbackData(Amazon.Runtime.StoredProfileFederatedCredentials.RequestUserCredential,System.Object)">
-            <summary>
-            <para>
-            Registers a callback handler for scenarios where credentials need to be supplied
-            during user authentication (primarily the non-domain-joined use case). Custom data,
-            which will be supplied in the CredentialRequestCallbackArgs instance passed to the
-            callback, can also be supplied.
-            </para>
-            <para>
-            The callback will only be invoked if the underlying SAML role profile indicates it
-            was set up for use with a specific identity. For profiles that do not contain any user
-            identity the SDK will default to using the identity of the current process during
-            authentication. Additionally, if the profile contain user identity information but no
-            callback has been registered, the SDK will also attempt to use the current process
-            identity during authentication.
-            </para>
-            </summary>
-            <param name="callback">The handler to be called</param>
-            <param name="customData">
-            Custom state data to be supplied in the arguments to the callback.
-            </param>
-            <remarks>
-            Only one callback handler can be registered. The call to the handler will be made on
-            whatever thread is executing at the time a demand to provide AWS credentials is made.
-            If the handler code requires that UI need to be displayed, the handler should 
-            transition to the UI thread as appropriate.
-            </remarks>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.CanCreateFrom(System.String,System.String)">
-            <summary>
-            Tests if an instance can be created from the persisted profile data.
-            </summary>
-            <param name="profileName">The name of the profile to test.</param>
-            <param name="profilesLocation">The location of the shared ini-format credential file.</param>
-            <returns>True if the persisted data would yield a valid credentials instance.</returns>
-            <remarks>
-            This profile type is currently only supported in the SDK credential store file.
-            The shared ini-format file is not currently supported; any value supplied
-            for the profilesLocation value is ignored.
-            </remarks>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.Validate">
-            <summary>
-            Performs any additional validation we may require on the profile content.
-            </summary>
-        </member>
-        <member name="M:Amazon.Runtime.StoredProfileFederatedCredentials.GenerateNewCredentials">
-            <summary>
-            Refresh credentials after expiry. If the role profile is configured with user identity
-            information and a callback has been registered to obtain the user credential the callback
-            will be invoked ahead of authentication. For role profiles configured with user identity
-            but no callback registration, the SDK will fall back to attempting to use the default
-            user identity of the current process.
-            </summary>
-            <returns></returns>
-        </member>
         <member name="T:Amazon.Runtime.EnvironmentVariableAWSEndpointDiscoveryEnabled">
             <summary>
             Determines the endpoint discovery enabled value based on an environment variable. If no value is found in the
@@ -9048,15 +8505,6 @@
             </summary>
             <param name="errorCode">The error code.</param>
             <param name="message">The error message.</param>
-        </member>
-        <member name="M:Amazon.Runtime.EventStreams.EventStreamErrorCodeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the EventStreamErrorCodeException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.Runtime.EventStreams.EventStreamEventReceivedArgs`1">
             <summary>
@@ -9365,24 +8813,6 @@
             Sets the current value
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.EventStreams.EventStreamParseException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the EventStreamParseException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
-        <member name="M:Amazon.Runtime.EventStreams.EventStreamChecksumFailureException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the EventStreamChecksumFailureException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="P:Amazon.Runtime.EventStreams.IEventStreamMessage.Headers">
             <summary>
             Headers for the message. Can be null.
@@ -9470,15 +8900,6 @@
             </summary>
             <param name="message">The exception message.</param>
             <param name="innerException">The inner exception.</param>
-        </member>
-        <member name="M:Amazon.Runtime.EventStreams.EventStreamValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the EventStreamValidationException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.Runtime.EventStreams.Internal.IEnumerableEventStream`2">
             <summary>
@@ -9757,15 +9178,6 @@
             being thrown during parsing of the network stream.
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.EventStreams.Internal.EventStreamDecoderIllegalStateException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the EventStreamDecoderIllegalStateException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.Runtime.EventStreams.Internal.IEventStreamDecoder">
             <summary>
             Contract for EventStreamDecoder
@@ -9839,15 +9251,6 @@
             <param name="message">The exception message.</param>
             <param name="innerException">The inner exception.</param>
         </member>
-        <member name="M:Amazon.Runtime.EventStreams.Internal.EventStreamException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the EventStreamException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.Runtime.EventStreams.Internal.IEventStreamEvent">
             <summary>
             The contract for EventStream events.
@@ -9897,15 +9300,6 @@
             Constructs an UnknownEventStreamMessageTypeException.
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.EventStreams.UnknownEventStreamMessageTypeException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the UnknownEventStreamMessageTypeException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.Runtime.EventStreams.UnknownEventStreamException">
             <summary>
             This exception is thrown if an exception is retrieved from the event stream and should be modeled,
@@ -9922,15 +9316,6 @@
             Constructs an EventStreamException.
             </summary>
             <param name="exceptionType">The exception type.</param>
-        </member>
-        <member name="M:Amazon.Runtime.EventStreams.UnknownEventStreamException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the UnknownEventStreamException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.Runtime.IAmazonService">
             <summary>
@@ -10159,12 +9544,32 @@
             Returns the maximum number of discovered endpoints that can be stored within the cache for the client. The default limit is 1000 cache entries.
             </summary>
         </member>
-        <member name="P:Amazon.Runtime.IClientConfig.TcpKeepAlive">
+        <member name="P:Amazon.Runtime.IClientConfig.MaxConnectionsPerServer">
             <summary>
-            Gets the TCP keep-alive values to use for service requests. Enabling TCP keep-alive sends periodic TCP keep-alive probe packets, to prevent disconnection due to 
-            network inactivity. This is useful when you make API calls that take a long time to respond. In this case, the connection could be dropped by an intermediate 
-            node (e.g. proxy) as the connection is inactive for a long time. Timeout controls the duration of inactivity before a keep-alive probe packet is sent. 
-            Interval controls the amount of time to wait before retrying a keep-alive probe packet in the event the server doesn't respond to a keep-alive probe.
+            Get the value to use for <see cref="P:System.Net.Http.HttpClientHandler.MaxConnectionsPerServer"/> on requests.
+            If this property is null, <see cref="P:System.Net.Http.HttpClientHandler.MaxConnectionsPerServer"/>
+            will be left at its default value of <see cref="F:System.Int32.MaxValue"/>.
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.IClientConfig.CacheHttpClient">
+            <summary>
+            <para>
+            This is a switch used for performance testing and is not intended for production applications 
+            to change. This switch may be removed in a future version of the SDK as the .NET Core platform matures.
+            </para>
+            <para>
+            If true, the HttpClient is cached and reused for every request made by the service client 
+            and shared with other service clients.
+            </para>
+            <para>
+            For the .NET Core platform this is default to true because the HttpClient manages the connection
+            pool.
+            </para>
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.IClientConfig.HttpClientCacheSize">
+            <summary>
+            If CacheHttpClient is set to true then HttpClientCacheSize controls the number of HttpClients cached.
             </summary>
         </member>
         <member name="P:Amazon.Runtime.IClientConfig.ProxyHost">
@@ -10177,40 +9582,13 @@
             Gets the ProxyPort property.
             </summary>
         </member>
-        <member name="P:Amazon.Runtime.IClientConfig.MaxIdleTime">
-            <summary>
-            Gets the max idle time set on the ServicePoint for the WebRequest.
-            Default value is 50 seconds (50,000 ms) unless ServicePointManager.MaxServicePointIdleTime is set,
-            in which case ServicePointManager.MaxServicePointIdleTime will be used as the default.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.IClientConfig.ReadWriteTimeout">
-            <summary>
-            Gets the default read-write timeout value.
-            </summary>
-            <seealso cref="P:System.Net.HttpWebRequest.ReadWriteTimeout"/>
-            <seealso cref="P:System.Net.Http.WebRequestHandler.ReadWriteTimeout"/>
-        </member>
-        <member name="P:Amazon.Runtime.IClientConfig.ConnectionLimit">
-            <summary>
-            Gets the connection limit set on the ServicePoint for the WebRequest.
-            Default value is 50 connections unless ServicePointManager.DefaultConnectionLimit is set in 
-            which case ServicePointManager.DefaultConnectionLimit will be used as the default.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.IClientConfig.UseNagleAlgorithm">
-            <summary>
-            Gets whether the Nagle algorithm is used on connections managed by the ServicePoint object used
-            for requests to AWS. This is defaulted to false for lower latency with responses that return small amount of data. This is the opposite
-            default than ServicePoint.UseNagleAlgorithm which is optimized for large responses like web pages or images.
-            </summary>
-        </member>
         <member name="M:Amazon.Runtime.IClientConfig.GetWebProxy">
             <summary>
             Returns a WebProxy instance configured to match the proxy settings
             in the client configuration.
             </summary>
         </member>
+        <!-- Badly formed XML comment ignored for member "P:Amazon.Runtime.IClientConfig.HttpClientFactory" -->
         <member name="T:Amazon.Runtime.ILogMessage">
             <summary>
             Interface for a single logged message.
@@ -10402,6 +9780,238 @@
             </summary>
             <param name="cancellationToken">A cancellation token that can be used to cancel the asynchronous operation.</param>
             <returns></returns>
+        </member>
+        <member name="T:Amazon.Runtime.HttpClientFactory">
+            <summary>
+            A factory which creates HTTP clients.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientFactory.CreateHttpClient(Amazon.Runtime.IClientConfig)">
+            <summary>
+            Create and configure an HttpClient.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientFactory.UseSDKHttpClientCaching(Amazon.Runtime.IClientConfig)">
+            <summary>
+            If true the SDK will internally cache the clients created by CreateHttpClient.
+            If false the sdk will not cache the clients.
+            Override this method to return false if your HttpClientFactory will handle its own caching
+            or if you don't want clients to be cached.
+            </summary>
+            <param name="clientConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientFactory.DisposeHttpClientsAfterUse(Amazon.Runtime.IClientConfig)">
+            <summary>
+            Determines if the SDK will dispose clients after they're used.
+            If HttpClients are cached, either by the SDK or by your HttpClientFactory, this should be false.
+            If there is no caching then this should be true.
+            </summary>
+            <param name="clientConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientFactory.GetConfigUniqueString(Amazon.Runtime.IClientConfig)">
+            <summary>
+            Returns a string that's used to group equivalent HttpClients into caches.
+            This method isn't used unless UseSDKHttpClientCaching returns true;
+            
+            A null return value signals the SDK caching mechanism to cache HttpClients per SDK client.
+            So when the SDK client is disposed, the HttpClients are as well.
+            
+            A non-null return value signals the SDK that HttpClients created with the given clientConfig
+            should be cached and reused globally.  ClientConfigs that produce the same result for
+            GetConfigUniqueString will be grouped together and considered equivalent for caching purposes.
+            </summary>
+            <param name="clientConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.Runtime.HttpRequestMessageFactory">
+            <summary>
+            A factory which creates HTTP requests which uses System.Net.Http.HttpClient.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpRequestMessageFactory.#ctor(Amazon.Runtime.IClientConfig)">
+            <summary>
+            The constructor for HttpRequestMessageFactory.
+            </summary>
+            <param name="clientConfig">Configuration setting for a client.</param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpRequestMessageFactory.CreateHttpRequest(System.Uri)">
+            <summary>
+            Creates an HTTP request for the given URI.
+            </summary>
+            <param name="requestUri">The request URI.</param>
+            <returns>An HTTP request.</returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpRequestMessageFactory.Dispose">
+            <summary>
+            Disposes the HttpRequestMessageFactory.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpRequestMessageFactory.Dispose(System.Boolean)">
+            <summary>
+            Dispose the factory
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpRequestMessageFactory.CreateManagedHttpClient(Amazon.Runtime.IClientConfig)">
+            <summary>
+            Create and configure a managed HttpClient instance.
+            The use of HttpClientHandler in the constructor for HttpClient implicitly creates a managed HttpClient.
+            If a native HttpClient is required the SDK user must implement IHttpClientFactory and provide an
+            instance via IClientConfig.HttpClientFactory (only available in PCL).
+            </summary>
+            <param name="clientConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Amazon.Runtime.HttpClientCache">
+            <summary>
+            A cache of HttpClient objects. The GetNextClient method does a round robin cycle through the clients
+            to distribute the load even across.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientCache.#ctor(System.Net.Http.HttpClient[])">
+            <summary>
+            Constructs a container for a cache of HttpClient objects
+            </summary>
+            <param name="clients">The HttpClient to cache</param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientCache.GetNextClient">
+            <summary>
+            Returns the next HttpClient using a round robin rotation. It is expected that individual clients will be used
+            by more then one Thread.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientCache.Dispose">
+            <summary>
+            Disposes the HttpClientCache.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpClientCache.Dispose(System.Boolean)">
+            <summary>
+            Dispose the HttpClientCache
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="T:Amazon.Runtime.HttpWebRequestMessage">
+            <summary>
+            HTTP request wrapper for System.Net.Http.HttpRequestMessage.
+            </summary>    
+        </member>
+        <member name="F:Amazon.Runtime.HttpWebRequestMessage.ContentHeaderNames">
+            <summary>
+            Set of content header names.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.#ctor(System.Net.Http.HttpClient,System.Uri,Amazon.Runtime.IClientConfig)">
+            <summary>
+            The constructor for HttpWebRequestMessage.
+            </summary>
+            <param name="httpClient">The HttpClient used to make the request.</param>
+            <param name="requestUri">The request URI.</param>
+            <param name="config">The service client config.</param>
+        </member>
+        <member name="P:Amazon.Runtime.HttpWebRequestMessage.HttpClient">
+            <summary>
+            The underlying HttpClient
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.HttpWebRequestMessage.Request">
+            <summary>
+            The underlying HTTP web request.
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.HttpWebRequestMessage.Method">
+            <summary>
+            The HTTP method or verb.
+            </summary>
+        </member>
+        <member name="P:Amazon.Runtime.HttpWebRequestMessage.RequestUri">
+            <summary>
+            The request URI.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.ConfigureRequest(Amazon.Runtime.IRequestContext)">
+            <summary>
+            Configures a request as per the request context.
+            </summary>
+            <param name="requestContext">The request context.</param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.SetRequestHeaders(System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Sets the headers on the request.
+            </summary>
+            <param name="headers">A dictionary of header names and values.</param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.GetRequestContent">
+            <summary>
+            Gets a handle to the request content.
+            </summary>
+            <returns>The request content.</returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.GetResponse">
+            <summary>
+            Returns the HTTP response.
+            </summary>
+            <returns>The HTTP response.</returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.Abort">
+            <summary>
+            Aborts the HTTP request.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.GetResponseAsync(System.Threading.CancellationToken)">
+            <summary>
+            Returns the HTTP response.
+            </summary>
+            <param name="cancellationToken">A cancellation token that can be used to cancel the asynchronous operation.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.WriteToRequestBody(System.Net.Http.HttpContent,System.IO.Stream,System.Collections.Generic.IDictionary{System.String,System.String},Amazon.Runtime.IRequestContext)">
+            <summary>
+            Writes a stream to the request body.
+            </summary>
+            <param name="requestContent">The destination where the content stream is written.</param>
+            <param name="contentStream">The content stream to be written.</param>
+            <param name="contentHeaders">HTTP content headers.</param>
+            <param name="requestContext">The request context.</param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.WriteToRequestBody(System.Net.Http.HttpContent,System.Byte[],System.Collections.Generic.IDictionary{System.String,System.String})">
+            <summary>
+            Writes a byte array to the request body.
+            </summary>
+            <param name="requestContent">The destination where the content stream is written.</param>
+            <param name="content">The content stream to be written.</param>
+            <param name="contentHeaders">HTTP content headers.</param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.GetRequestContentAsync">
+            <summary>
+            Gets a handle to the request content.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.Dispose">
+            <summary>
+            Disposes the HttpWebRequestMessage.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.Dispose(System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:Amazon.Runtime.HttpWebRequestMessage.SetupProgressListeners(System.IO.Stream,System.Int64,System.Object,System.EventHandler{Amazon.Runtime.StreamTransferProgressArgs})">
+            <summary>
+            Sets up the progress listeners
+            </summary>
+            <param name="originalStream">The content stream</param>
+            <param name="progressUpdateInterval">The interval at which progress needs to be published</param>
+            <param name="sender">The objects which is trigerring the progress changes</param>
+            <param name="callback">The callback which will be invoked when the progress changed event is trigerred</param>
+            <returns>an <see cref="T:Amazon.Runtime.Internal.Util.EventStream"/> object, incase the progress is setup, else returns the original stream</returns>
         </member>
         <member name="T:Amazon.Runtime.IPipelineHandler">
             <summary>
@@ -10679,11 +10289,6 @@
             and allows other services to be able to use S3 as a runtime dependency. This interface
             is implemented by the AmazonS3Client defined in the S3 assembly.
             </summary>
-            <summary>
-            ICoreAmazonS3 is not meant to use directly. It defines S3 with basic .NET types
-            and allows other services to be able to use S3 as a runtime dependency. This interface
-            is implemented by the AmazonS3Client defined in the S3 assembly.
-            </summary>
         </member>
         <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.GeneratePreSignedURL(System.String,System.String,System.DateTime,System.Collections.Generic.IDictionary{System.String,System.Object})">
             <summary>
@@ -10788,88 +10393,6 @@
             <param name="bucketName"></param>
             <returns></returns>
         </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.GetAllObjectKeys(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Get all the object keys for the particular bucket and key prefix.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="prefix"></param>
-            <param name="additionalProperties"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.Delete(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Delete the object.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKey"></param>
-            <param name="additionalProperties"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.Deletes(System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Deletes the ojects.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKeys"></param>
-            <param name="additionalProperties"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.UploadObjectFromStream(System.String,System.String,System.IO.Stream,System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Upload an object from a stream.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKey"></param>
-            <param name="stream"></param>
-            <param name="additionalProperties"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.UploadObjectFromFilePath(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Upload an object from a file path.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKey"></param>
-            <param name="filepath"></param>
-            <param name="additionalProperties"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.DownloadToFilePath(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Download object to a file path.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKey"></param>
-            <param name="filepath"></param>
-            <param name="additionalProperties"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.GetObjectStream(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
-            <summary>
-            Get stream for an object.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKey"></param>
-            <param name="additionalProperties"></param>
-            <returns></returns>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.MakeObjectPublic(System.String,System.String,System.Boolean)">
-            <summary>
-            Set the ACL on the object to public readable.
-            </summary>
-            <param name="bucketName"></param>
-            <param name="objectKey"></param>
-            <param name="enable"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.EnsureBucketExists(System.String)">
-            <summary>
-            Check to see if the bucket exists and if it doesn't create the bucket.
-            </summary>
-            <param name="bucketName"></param>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonS3.DoesS3BucketExist(System.String)">
-            <summary>
-            Check to see if the bucket exists.
-            </summary>
-            <param name="bucketName"></param>
-            <returns></returns>
-        </member>
         <member name="T:Amazon.Runtime.SharedInterfaces.ICoreAmazonSQS">
             <summary>
             ICoreAmazonSQS is not meant to use directly. It defines SQS with basic .NET types
@@ -10877,34 +10400,12 @@
             is implemented by the AmazonSQSClient defined in the SQS assembly.
             </summary>
         </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonSQS.GetAttributes(System.String)">
-            <summary>
-            <para>
-            This method is used internally to access the Amazon SQS service within other service assemblies.
-            Please use AmazonSQSClient to access Amazon SQS instead.
-            </para>
-            Get the attributes for the queue identified by the queue URL.
-            </summary>
-            <param name="queueUrl">The queue URL to get attributes for.</param>
-            <returns>The attributes for the queue.</returns>
-        </member>
         <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonSQS.GetAttributesAsync(System.String)">
             <summary>
             Get the attributes for the queue identified by the queue URL asynchronously.
             </summary>
             <param name="queueUrl">The queue URL to get attributes for.</param>
             <returns>A Task containing the result of a dictionary of attributes for the queue.</returns>
-        </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonSQS.SetAttributes(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            <para>
-            This method is used internally to access the Amazon SQS service within other service assemblies.
-            Please use AmazonSQSClient to access Amazon SQS instead.
-            </para>
-            Set the attributes on the queue identified by the queue URL.
-            </summary>
-            <param name="queueUrl">The queue URL to set the attributues.</param>
-            <param name="attributes">The attributes to set.</param>
         </member>
         <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonSQS.SetAttributesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
             <summary>
@@ -10942,7 +10443,15 @@
             <param name="options">Options to be used in the call to AssumeRole.</param>
             <returns></returns>
         </member>
-        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonSTS.CredentialsFromSAMLAuthentication(System.String,System.String,System.String,System.TimeSpan,System.Net.ICredentials)">
+        <member name="T:Amazon.Runtime.SharedInterfaces.ICoreAmazonSTS_SAML">
+            <summary>
+            ICoreAmazonSTS_SAML is not meant to be used directly. It defines Security Token
+            service with basic .NET types and allows other services to be able to use the service as 
+            a runtime dependency. This interface is implemented by the AmazonSecurityTokenServiceClient 
+            defined in the AWSSDK.SecurityToken assembly.
+            </summary>
+        </member>
+        <member name="M:Amazon.Runtime.SharedInterfaces.ICoreAmazonSTS_SAML.CredentialsFromSAMLAuthentication(System.String,System.String,System.String,System.TimeSpan,System.Net.ICredentials)">
             <summary>
             <para>
             This method is used internally to access the Amazon Security Token
@@ -10981,15 +10490,6 @@
             <summary>
             This exception is thrown if there are problems signing the request.
             </summary>
-        </member>
-        <member name="M:Amazon.Runtime.SignatureException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the SignatureException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="M:Amazon.Runtime.StreamTransferProgressArgs.#ctor(System.Int64,System.Int64,System.Int64)">
             <summary>
@@ -11054,100 +10554,7 @@
             Method to post UDP datagram for bcl35 async calls
             </summary>
         </member>
-        <member name="T:Amazon.Runtime.TcpKeepAlive">
-            <summary>
-            TcpKeepAlive class used to group all the different properties used for working with TCP keep-alives.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.TcpKeepAlive.Enabled">
-            <summary>
-            Specifies if TCP keep-alive is enabled or disabled. The default value is false for all services except Lambda.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.TcpKeepAlive.Timeout">
-            <summary>
-            The timeout before a TCP keep-alive packet will be sent. The timeout value must be greater 
-            than 0 seconds and not null if Enabled is set to true. The default value is 5 minutes.
-            </summary>
-        </member>
-        <member name="P:Amazon.Runtime.TcpKeepAlive.Interval">
-            <summary>
-            The interval before retrying a TCP keep-alive packet that did not receive an acknowledgement. The 
-            interval must be greater than 0 seconds and not null if Enabled is set to true. The default value is 15 seconds.
-            </summary>
-        </member>
-        <member name="T:Amazon.AWSSection">
-            <summary>
-            Root AWS config section
-            </summary>
-        </member>
-        <member name="P:Amazon.AWSSection.Proxy">
-            <summary>
-            Gets and sets the proxy settings for the SDK to use.
-            </summary>
-        </member>
-        <member name="T:Amazon.ProxySection">
-            <summary>
-            Settings for configuring a proxy for the SDK to use.
-            </summary>
-        </member>
-        <member name="P:Amazon.ProxySection.Host">
-            <summary>
-            Gets and sets the host name or IP address of the proxy server.
-            </summary>
-        </member>
-        <member name="P:Amazon.ProxySection.Port">
-            <summary>
-            Gets and sets the port number of the proxy.
-            </summary>
-        </member>
-        <member name="P:Amazon.ProxySection.Username">
-            <summary>
-            Gets and sets the username to authenticate with the proxy server.
-            </summary>
-        </member>
-        <member name="P:Amazon.ProxySection.Password">
-            <summary>
-            Gets and sets the password to authenticate with the proxy server.
-            </summary>
-        </member>
-        <member name="P:Amazon.ProxySection.BypassList">
-            <summary>
-            Gets and set the proxy bypass list. A set of semi-colon
-            delimited regular expressions denoting the addresses that
-            should bypass the proxy.
-            </summary>
-        </member>
-        <member name="P:Amazon.ProxySection.BypassOnLocal">
-            <summary>
-            Gets and sets the proxy option to bypass local addresses.
-            </summary>
-        </member>
-        <member name="T:Amazon.LoggingSection">
-            <summary>
-            Logging section
-            </summary>
-        </member>
-        <member name="T:Amazon.WritableConfigurationElementCollection`1">
-            <summary>
-            Easy-to-use generic collection
-            </summary>
-            <typeparam name="T"></typeparam>
-        </member>
-        <member name="T:Amazon.SerializableConfigurationElement">
-            <summary>
-            Configuration element that serializes properly when used with collections
-            </summary>
-        </member>
-        <member name="T:Amazon.WritableConfigurationElement">
-            <summary>
-            ConfigurationElement class which returns false for IsReadOnly
-            </summary>
-        </member>
         <member name="T:Amazon.Util.ProxyConfig">
-            <summary>
-            Settings for configuring a proxy for the SDK to use.
-            </summary>
             <summary>
             Settings for configuring a proxy for the SDK to use.
             </summary>
@@ -11192,9 +10599,6 @@
             <summary>
             Settings for logging in the SDK.
             </summary>
-            <summary>
-            Settings for logging in the SDK.
-            </summary>
         </member>
         <member name="P:Amazon.Util.LoggingConfig.LogTo">
             <summary>
@@ -11221,11 +10625,6 @@
         <member name="P:Amazon.Util.LoggingConfig.LogMetricsCustomFormatter">
             <summary>
             A custom formatter added through Configuration
-            </summary>
-        </member>
-        <member name="T:Amazon.Util.CSMConfig">
-            <summary>
-            Settings for configuring CSM in the SDK.
             </summary>
         </member>
         <member name="T:Amazon.Util.AWSPublicIpAddressRanges">
@@ -13335,20 +12734,6 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="P:Amazon.AWSConfigs.ApplicationName">
-            <summary>
-            The unique application name for the current application. This values is currently used 
-            by high level APIs (Mobile Analytics Manager and Cognito Sync Manager) to create a unique file
-            path to store local database files.
-            Changes to this setting will only take effect in newly-constructed objects using this property.
-            <code>
-            &lt;configSections&gt;
-              &lt;section name="aws" type="Amazon.AWSSection, AWSSDK"/&gt;
-            &lt;/configSections&gt;
-            &lt;aws applicationName="" /&gt;
-            </code>
-            </summary>
-        </member>
         <member name="M:Amazon.AWSConfigs.AddTraceListener(System.String,System.Diagnostics.TraceListener)">
             <summary>
             Add a listener for SDK logging. 
@@ -13363,18 +12748,6 @@
             </summary>
             <param name="source">The source the listener was added to.</param>
             <param name="name">The name of the listener.</param>
-        </member>
-        <member name="M:Amazon.AWSConfigs.GenerateConfigTemplate">
-            <summary>
-            Generates a sample XML representation of the SDK configuration section.
-            </summary>
-            <remarks>
-            The XML returned has an example of every tag in the SDK configuration
-            section, and sample input for each attribute. This can be included in 
-            an App.config or Web.config and edited to suit. Where a section contains
-            a collection, multiple of the same tag will be output.
-            </remarks>
-            <returns>Sample XML configuration string.</returns>
         </member>
         <member name="T:Amazon.LoggingOptions">
             <summary>

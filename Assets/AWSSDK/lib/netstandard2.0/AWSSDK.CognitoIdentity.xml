@@ -257,6 +257,11 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="F:Amazon.CognitoIdentity.CognitoAWSCredentials.IDENTITY_ID_CACHE_KEY">
+            <summary>
+            Key for storing the identity id
+            </summary>
+        </member>
         <member name="M:Amazon.CognitoIdentity.CognitoAWSCredentials.GetCachedIdentityId">
             <summary>
             Gets the previously cached the identity id retrieved from Cognito. 
@@ -442,15 +447,6 @@
             <param name="errorCode"></param>
             <param name="requestId"></param>
             <param name="statusCode"></param>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.Model.ConcurrentModificationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the ConcurrentModificationException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.CognitoIdentity.Model.CreateIdentityPoolRequest">
             <summary>
@@ -901,15 +897,6 @@
             <param name="requestId"></param>
             <param name="statusCode"></param>
         </member>
-        <member name="M:Amazon.CognitoIdentity.Model.DeveloperUserAlreadyRegisteredException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the DeveloperUserAlreadyRegisteredException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
             <summary>
              CognitoIdentity exception
@@ -957,15 +944,6 @@
             <param name="errorCode"></param>
             <param name="requestId"></param>
             <param name="statusCode"></param>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.Model.ExternalServiceException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the ExternalServiceException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.CognitoIdentity.Model.GetCredentialsForIdentityRequest">
             <summary>
@@ -1424,15 +1402,6 @@
             <param name="errorCode"></param>
             <param name="requestId"></param>
             <param name="statusCode"></param>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.Model.InternalErrorException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the InternalErrorException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.CognitoIdentity.Model.Internal.MarshallTransformations.CognitoIdentityProviderInfoMarshaller">
             <summary>
@@ -2796,15 +2765,6 @@
             <param name="requestId"></param>
             <param name="statusCode"></param>
         </member>
-        <member name="M:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the InvalidIdentityPoolConfigurationException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
             <summary>
              CognitoIdentity exception
@@ -2853,15 +2813,6 @@
             <param name="requestId"></param>
             <param name="statusCode"></param>
         </member>
-        <member name="M:Amazon.CognitoIdentity.Model.InvalidParameterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the InvalidParameterException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.CognitoIdentity.Model.LimitExceededException">
             <summary>
              CognitoIdentity exception
@@ -2909,15 +2860,6 @@
             <param name="errorCode"></param>
             <param name="requestId"></param>
             <param name="statusCode"></param>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.Model.LimitExceededException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the LimitExceededException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.CognitoIdentity.Model.ListIdentitiesRequest">
             <summary>
@@ -3344,15 +3286,6 @@
             <param name="requestId"></param>
             <param name="statusCode"></param>
         </member>
-        <member name="M:Amazon.CognitoIdentity.Model.NotAuthorizedException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the NotAuthorizedException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
             <summary>
              CognitoIdentity exception
@@ -3401,15 +3334,6 @@
             <param name="requestId"></param>
             <param name="statusCode"></param>
         </member>
-        <member name="M:Amazon.CognitoIdentity.Model.ResourceConflictException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the ResourceConflictException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
             <summary>
              CognitoIdentity exception
@@ -3457,15 +3381,6 @@
             <param name="errorCode"></param>
             <param name="requestId"></param>
             <param name="statusCode"></param>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.Model.ResourceNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the ResourceNotFoundException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.CognitoIdentity.Model.RoleMapping">
             <summary>
@@ -3673,15 +3588,6 @@
             <param name="errorCode"></param>
             <param name="requestId"></param>
             <param name="statusCode"></param>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.Model.TooManyRequestsException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the TooManyRequestsException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
         </member>
         <member name="T:Amazon.CognitoIdentity.Model.UnlinkDeveloperIdentityRequest">
             <summary>
@@ -4060,15 +3966,6 @@
             <param name="requestId"></param>
             <param name="statusCode"></param>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
-            <summary>
-            Constructs a new instance of the AmazonCognitoIdentityException class with serialized data.
-            </summary>
-            <param name="info">The <see cref="T:System.Runtime.Serialization.SerializationInfo" /> that holds the serialized object data about the exception being thrown.</param>
-            <param name="context">The <see cref="T:System.Runtime.Serialization.StreamingContext" /> that contains contextual information about the source or destination.</param>
-            <exception cref="T:System.ArgumentNullException">The <paramref name="info" /> parameter is null. </exception>
-            <exception cref="T:System.Runtime.Serialization.SerializationException">The class name is null or <see cref="P:System.Exception.HResult" /> is zero (0). </exception>
-        </member>
         <member name="T:Amazon.CognitoIdentity.Internal.AmazonCognitoIdentityMetadata">
             <summary>
             Service metadata for  Amazon CognitoIdentity service
@@ -4428,60 +4325,6 @@
             Disposes the service client.
             </summary>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.CreateIdentityPool(Amazon.CognitoIdentity.Model.CreateIdentityPoolRequest)">
-            <summary>
-            Creates a new identity pool. The identity pool is a store of user identity information
-            that is specific to your AWS account. The limit on identity pools is 60 per account.
-            The keys for <code>SupportedLoginProviders</code> are as follows:
-            
-             <ul> <li> 
-            <para>
-            Facebook: <code>graph.facebook.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Google: <code>accounts.google.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Amazon: <code>www.amazon.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Twitter: <code>api.twitter.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Digits: <code>www.digits.com</code> 
-            </para>
-             </li> </ul> 
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the CreateIdentityPool service method.</param>
-            
-            <returns>The response from the CreateIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.LimitExceededException">
-            Thrown when the total number of user pools has exceeded a preset limit.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/CreateIdentityPool">REST API Reference for CreateIdentityPool Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.CreateIdentityPoolAsync(Amazon.CognitoIdentity.Model.CreateIdentityPoolRequest,System.Threading.CancellationToken)">
             <summary>
             Creates a new identity pool. The identity pool is a store of user identity information
@@ -4539,30 +4382,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/CreateIdentityPool">REST API Reference for CreateIdentityPool Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DeleteIdentities(Amazon.CognitoIdentity.Model.DeleteIdentitiesRequest)">
-            <summary>
-            Deletes identities from an identity pool. You can specify a list of 1-60 identities
-            that you want to delete.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DeleteIdentities service method.</param>
-            
-            <returns>The response from the DeleteIdentities service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentities">REST API Reference for DeleteIdentities Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DeleteIdentitiesAsync(Amazon.CognitoIdentity.Model.DeleteIdentitiesRequest,System.Threading.CancellationToken)">
             <summary>
             Deletes identities from an identity pool. You can specify a list of 1-60 identities
@@ -4589,66 +4408,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentities">REST API Reference for DeleteIdentities Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DeleteIdentityPool(System.String)">
-            <summary>
-            Deletes an identity pool. Once a pool is deleted, users will not be able to authenticate
-            with the pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            
-            <returns>The response from the DeleteIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentityPool">REST API Reference for DeleteIdentityPool Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DeleteIdentityPool(Amazon.CognitoIdentity.Model.DeleteIdentityPoolRequest)">
-            <summary>
-            Deletes an identity pool. Once a pool is deleted, users will not be able to authenticate
-            with the pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DeleteIdentityPool service method.</param>
-            
-            <returns>The response from the DeleteIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentityPool">REST API Reference for DeleteIdentityPool Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DeleteIdentityPoolAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -4716,66 +4475,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentityPool">REST API Reference for DeleteIdentityPool Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DescribeIdentity(System.String)">
-            <summary>
-            Returns metadata related to the given identity, including when the identity was created
-            and any associated linked logins.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            
-            <returns>The response from the DescribeIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentity">REST API Reference for DescribeIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DescribeIdentity(Amazon.CognitoIdentity.Model.DescribeIdentityRequest)">
-            <summary>
-            Returns metadata related to the given identity, including when the identity was created
-            and any associated linked logins.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DescribeIdentity service method.</param>
-            
-            <returns>The response from the DescribeIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentity">REST API Reference for DescribeIdentity Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DescribeIdentityAsync(System.String,System.Threading.CancellationToken)">
             <summary>
             Returns metadata related to the given identity, including when the identity was created
@@ -4842,66 +4541,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentity">REST API Reference for DescribeIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DescribeIdentityPool(System.String)">
-            <summary>
-            Gets details about a particular identity pool, including the pool name, ID description,
-            creation date, and current number of users.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            
-            <returns>The response from the DescribeIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentityPool">REST API Reference for DescribeIdentityPool Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DescribeIdentityPool(Amazon.CognitoIdentity.Model.DescribeIdentityPoolRequest)">
-            <summary>
-            Gets details about a particular identity pool, including the pool name, ID description,
-            creation date, and current number of users.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DescribeIdentityPool service method.</param>
-            
-            <returns>The response from the DescribeIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentityPool">REST API Reference for DescribeIdentityPool Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.DescribeIdentityPoolAsync(System.String,System.Threading.CancellationToken)">
             <summary>
             Gets details about a particular identity pool, including the pool name, ID description,
@@ -4967,133 +4606,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentityPool">REST API Reference for DescribeIdentityPool Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetCredentialsForIdentity(System.String)">
-            <summary>
-            Returns credentials for the provided identity ID. Any provided logins will be validated
-            against supported login providers. If the token is for cognito-identity.amazonaws.com,
-            it will be passed through to AWS Security Token Service with the appropriate role
-            for the token.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            
-            <returns>The response from the GetCredentialsForIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException">
-            Thrown if the identity pool has no role associated for the given auth type (auth/unauth)
-            or if the AssumeRole fails.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetCredentialsForIdentity(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            Returns credentials for the provided identity ID. Any provided logins will be validated
-            against supported login providers. If the token is for cognito-identity.amazonaws.com,
-            it will be passed through to AWS Security Token Service with the appropriate role
-            for the token.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            <param name="logins">A set of optional name-value pairs that map provider names to provider tokens. The name-value pair will follow the syntax "provider_name": "provider_user_identifier". Logins should not be specified when trying to get credentials for an unauthenticated identity. The Logins parameter is required when using identities associated with external identity providers such as FaceBook. For examples of <code>Logins</code> maps, see the code examples in the <a href="http://docs.aws.amazon.com/cognito/latest/developerguide/external-identity-providers.html">External Identity Providers</a> section of the Amazon Cognito Developer Guide.</param>
-            
-            <returns>The response from the GetCredentialsForIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException">
-            Thrown if the identity pool has no role associated for the given auth type (auth/unauth)
-            or if the AssumeRole fails.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetCredentialsForIdentity(Amazon.CognitoIdentity.Model.GetCredentialsForIdentityRequest)">
-            <summary>
-            Returns credentials for the provided identity ID. Any provided logins will be validated
-            against supported login providers. If the token is for cognito-identity.amazonaws.com,
-            it will be passed through to AWS Security Token Service with the appropriate role
-            for the token.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetCredentialsForIdentity service method.</param>
-            
-            <returns>The response from the GetCredentialsForIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException">
-            Thrown if the identity pool has no role associated for the given auth type (auth/unauth)
-            or if the AssumeRole fails.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetCredentialsForIdentityAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -5231,45 +4743,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetId(Amazon.CognitoIdentity.Model.GetIdRequest)">
-            <summary>
-            Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit
-            linked account.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetId service method.</param>
-            
-            <returns>The response from the GetId service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.LimitExceededException">
-            Thrown when the total number of user pools has exceeded a preset limit.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetId">REST API Reference for GetId Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetIdAsync(Amazon.CognitoIdentity.Model.GetIdRequest,System.Threading.CancellationToken)">
             <summary>
             Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit
@@ -5311,70 +4784,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetId">REST API Reference for GetId Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetIdentityPoolRoles(System.String)">
-            <summary>
-            Gets the roles for an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            
-            <returns>The response from the GetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetIdentityPoolRoles">REST API Reference for GetIdentityPoolRoles Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetIdentityPoolRoles(Amazon.CognitoIdentity.Model.GetIdentityPoolRolesRequest)">
-            <summary>
-            Gets the roles for an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetIdentityPoolRoles service method.</param>
-            
-            <returns>The response from the GetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetIdentityPoolRoles">REST API Reference for GetIdentityPoolRoles Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetIdentityPoolRolesAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -5445,88 +4854,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetIdentityPoolRoles">REST API Reference for GetIdentityPoolRoles Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetOpenIdToken(System.String)">
-            <summary>
-            Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned
-            by <a>GetId</a>. You can optionally add additional logins for the identity. Supplying
-            multiple logins creates an implicit link.
-            
-             
-            <para>
-            The OpenId token is valid for 10 minutes.
-            </para>
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            
-            <returns>The response from the GetOpenIdToken service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdToken">REST API Reference for GetOpenIdToken Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetOpenIdToken(Amazon.CognitoIdentity.Model.GetOpenIdTokenRequest)">
-            <summary>
-            Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned
-            by <a>GetId</a>. You can optionally add additional logins for the identity. Supplying
-            multiple logins creates an implicit link.
-            
-             
-            <para>
-            The OpenId token is valid for 10 minutes.
-            </para>
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetOpenIdToken service method.</param>
-            
-            <returns>The response from the GetOpenIdToken service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdToken">REST API Reference for GetOpenIdToken Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetOpenIdTokenAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -5616,55 +4943,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdToken">REST API Reference for GetOpenIdToken Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetOpenIdTokenForDeveloperIdentity(Amazon.CognitoIdentity.Model.GetOpenIdTokenForDeveloperIdentityRequest)">
-            <summary>
-            Registers (or retrieves) a Cognito <code>IdentityId</code> and an OpenID Connect token
-            for a user authenticated by your backend authentication process. Supplying multiple
-            logins will create an implicit linked account. You can only specify one developer
-            provider as part of the <code>Logins</code> map, which is linked to the identity pool.
-            The developer provider is the "domain" by which Cognito will refer to your users.
-            
-             
-            <para>
-            You can use <code>GetOpenIdTokenForDeveloperIdentity</code> to create a new identity
-            and to link new logins (that is, user credentials issued by a public provider or developer
-            provider) to an existing identity. When you want to create a new identity, the <code>IdentityId</code>
-            should be null. When you want to associate a new login with an existing authenticated/unauthenticated
-            identity, you can do so by providing the existing <code>IdentityId</code>. This API
-            will create the identity in the specified <code>IdentityPoolId</code>.
-            </para>
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetOpenIdTokenForDeveloperIdentity service method.</param>
-            
-            <returns>The response from the GetOpenIdTokenForDeveloperIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.DeveloperUserAlreadyRegisteredException">
-            The provided developer user identifier is already registered with Cognito under a
-            different identity ID.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdTokenForDeveloperIdentity">REST API Reference for GetOpenIdTokenForDeveloperIdentity Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.GetOpenIdTokenForDeveloperIdentityAsync(Amazon.CognitoIdentity.Model.GetOpenIdTokenForDeveloperIdentityRequest,System.Threading.CancellationToken)">
             <summary>
             Registers (or retrieves) a Cognito <code>IdentityId</code> and an OpenID Connect token
@@ -5717,35 +4995,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdTokenForDeveloperIdentity">REST API Reference for GetOpenIdTokenForDeveloperIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.ListIdentities(Amazon.CognitoIdentity.Model.ListIdentitiesRequest)">
-            <summary>
-            Lists the identities in an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the ListIdentities service method.</param>
-            
-            <returns>The response from the ListIdentities service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentities">REST API Reference for ListIdentities Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.ListIdentitiesAsync(Amazon.CognitoIdentity.Model.ListIdentitiesRequest,System.Threading.CancellationToken)">
             <summary>
             Lists the identities in an identity pool.
@@ -5778,35 +5027,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentities">REST API Reference for ListIdentities Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.ListIdentityPools(Amazon.CognitoIdentity.Model.ListIdentityPoolsRequest)">
-            <summary>
-            Lists all of the Cognito identity pools registered for your account.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the ListIdentityPools service method.</param>
-            
-            <returns>The response from the ListIdentityPools service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentityPools">REST API Reference for ListIdentityPools Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.ListIdentityPoolsAsync(Amazon.CognitoIdentity.Model.ListIdentityPoolsRequest,System.Threading.CancellationToken)">
             <summary>
             Lists all of the Cognito identity pools registered for your account.
@@ -5838,40 +5058,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentityPools">REST API Reference for ListIdentityPools Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.ListTagsForResource(Amazon.CognitoIdentity.Model.ListTagsForResourceRequest)">
-            <summary>
-            Lists the tags that are assigned to an Amazon Cognito identity pool.
-            
-             
-            <para>
-            A tag is a label that you can apply to identity pools to categorize and manage them
-            in different ways, such as by purpose, owner, environment, or other criteria.
-            </para>
-             
-            <para>
-            You can use this action up to 10 times per second, per account.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the ListTagsForResource service method.</param>
-            
-            <returns>The response from the ListTagsForResource service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListTagsForResource">REST API Reference for ListTagsForResource Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.ListTagsForResourceAsync(Amazon.CognitoIdentity.Model.ListTagsForResourceRequest,System.Threading.CancellationToken)">
             <summary>
@@ -5909,54 +5095,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListTagsForResource">REST API Reference for ListTagsForResource Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.LookupDeveloperIdentity(Amazon.CognitoIdentity.Model.LookupDeveloperIdentityRequest)">
-            <summary>
-            Retrieves the <code>IdentityID</code> associated with a <code>DeveloperUserIdentifier</code>
-            or the list of <code>DeveloperUserIdentifier</code> values associated with an <code>IdentityId</code>
-            for an existing identity. Either <code>IdentityID</code> or <code>DeveloperUserIdentifier</code>
-            must not be null. If you supply only one of these values, the other value will be
-            searched in the database and returned as a part of the response. If you supply both,
-            <code>DeveloperUserIdentifier</code> will be matched against <code>IdentityID</code>.
-            If the values are verified against the database, the response returns both values
-            and is the same as the request. Otherwise a <code>ResourceConflictException</code>
-            is thrown.
-            
-             
-            <para>
-             <code>LookupDeveloperIdentity</code> is intended for low-throughput control plane
-            operations: for example, to enable customer service to locate an identity ID by username.
-            If you are using it for higher-volume operations such as user authentication, your
-            requests are likely to be throttled. <a>GetOpenIdTokenForDeveloperIdentity</a> is
-            a better option for higher-volume operations for user authentication.
-            </para>
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the LookupDeveloperIdentity service method.</param>
-            
-            <returns>The response from the LookupDeveloperIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/LookupDeveloperIdentity">REST API Reference for LookupDeveloperIdentity Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.LookupDeveloperIdentityAsync(Amazon.CognitoIdentity.Model.LookupDeveloperIdentityRequest,System.Threading.CancellationToken)">
             <summary>
@@ -6009,50 +5147,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/LookupDeveloperIdentity">REST API Reference for LookupDeveloperIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.MergeDeveloperIdentities(Amazon.CognitoIdentity.Model.MergeDeveloperIdentitiesRequest)">
-            <summary>
-            Merges two users having different <code>IdentityId</code>s, existing in the same identity
-            pool, and identified by the same developer provider. You can use this action to request
-            that discrete users be merged and identified as a single user in the Cognito environment.
-            Cognito associates the given source user (<code>SourceUserIdentifier</code>) with
-            the <code>IdentityId</code> of the <code>DestinationUserIdentifier</code>. Only developer-authenticated
-            users can be merged. If the users to be merged are associated with the same public
-            provider, but as two different users, an exception will be thrown.
-            
-             
-            <para>
-            The number of linked logins is limited to 20. So, the number of linked logins for
-            the source user, <code>SourceUserIdentifier</code>, and the destination user, <code>DestinationUserIdentifier</code>,
-            together should not be larger than 20. Otherwise, an exception will be thrown.
-            </para>
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the MergeDeveloperIdentities service method.</param>
-            
-            <returns>The response from the MergeDeveloperIdentities service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/MergeDeveloperIdentities">REST API Reference for MergeDeveloperIdentities Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.MergeDeveloperIdentitiesAsync(Amazon.CognitoIdentity.Model.MergeDeveloperIdentitiesRequest,System.Threading.CancellationToken)">
             <summary>
             Merges two users having different <code>IdentityId</code>s, existing in the same identity
@@ -6099,79 +5193,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/MergeDeveloperIdentities">REST API Reference for MergeDeveloperIdentities Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.SetIdentityPoolRoles(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            Sets the roles for an identity pool. These roles are used when making calls to <a>GetCredentialsForIdentity</a>
-            action.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            <param name="roles">The map of roles associated with this pool. For a given role, the key will be either "authenticated" or "unauthenticated" and the value will be the Role ARN.</param>
-            
-            <returns>The response from the SetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ConcurrentModificationException">
-            Thrown if there are parallel requests to modify a resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/SetIdentityPoolRoles">REST API Reference for SetIdentityPoolRoles Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.SetIdentityPoolRoles(Amazon.CognitoIdentity.Model.SetIdentityPoolRolesRequest)">
-            <summary>
-            Sets the roles for an identity pool. These roles are used when making calls to <a>GetCredentialsForIdentity</a>
-            action.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the SetIdentityPoolRoles service method.</param>
-            
-            <returns>The response from the SetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ConcurrentModificationException">
-            Thrown if there are parallel requests to modify a resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/SetIdentityPoolRoles">REST API Reference for SetIdentityPoolRoles Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.SetIdentityPoolRolesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)">
             <summary>
@@ -6252,53 +5273,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/SetIdentityPoolRoles">REST API Reference for SetIdentityPoolRoles Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.TagResource(Amazon.CognitoIdentity.Model.TagResourceRequest)">
-            <summary>
-            Assigns a set of tags to an Amazon Cognito identity pool. A tag is a label that you
-            can use to categorize and manage identity pools in different ways, such as by purpose,
-            owner, environment, or other criteria.
-            
-             
-            <para>
-            Each tag consists of a key and value, both of which you define. A key is a general
-            category for more specific values. For example, if you have two versions of an identity
-            pool, one for testing and another for production, you might assign an <code>Environment</code>
-            tag key to both identity pools. The value of this key might be <code>Test</code> for
-            one identity pool and <code>Production</code> for the other.
-            </para>
-             
-            <para>
-            Tags are useful for cost tracking and access control. You can activate your tags so
-            that they appear on the Billing and Cost Management console, where you can track the
-            costs associated with your identity pools. In an IAM policy, you can constrain permissions
-            for identity pools based on specific tags or tag values.
-            </para>
-             
-            <para>
-            You can use this action up to 5 times per second, per account. An identity pool can
-            have as many as 50 tags.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the TagResource service method.</param>
-            
-            <returns>The response from the TagResource service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/TagResource">REST API Reference for TagResource Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.TagResourceAsync(Amazon.CognitoIdentity.Model.TagResourceRequest,System.Threading.CancellationToken)">
             <summary>
             Assigns a set of tags to an Amazon Cognito identity pool. A tag is a label that you
@@ -6349,41 +5323,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/TagResource">REST API Reference for TagResource Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UnlinkDeveloperIdentity(Amazon.CognitoIdentity.Model.UnlinkDeveloperIdentityRequest)">
-            <summary>
-            Unlinks a <code>DeveloperUserIdentifier</code> from an existing identity. Unlinked
-            developer users will be considered new identities next time they are seen. If, for
-            a given Cognito identity, you remove all federated identities as well as the developer
-            user identifier, the Cognito identity becomes inaccessible.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UnlinkDeveloperIdentity service method.</param>
-            
-            <returns>The response from the UnlinkDeveloperIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkDeveloperIdentity">REST API Reference for UnlinkDeveloperIdentity Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UnlinkDeveloperIdentityAsync(Amazon.CognitoIdentity.Model.UnlinkDeveloperIdentityRequest,System.Threading.CancellationToken)">
             <summary>
             Unlinks a <code>DeveloperUserIdentifier</code> from an existing identity. Unlinked
@@ -6421,43 +5360,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkDeveloperIdentity">REST API Reference for UnlinkDeveloperIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UnlinkIdentity(Amazon.CognitoIdentity.Model.UnlinkIdentityRequest)">
-            <summary>
-            Unlinks a federated identity from an existing account. Unlinked logins will be considered
-            new identities next time they are seen. Removing the last linked login will make this
-            identity inaccessible.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UnlinkIdentity service method.</param>
-            
-            <returns>The response from the UnlinkIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkIdentity">REST API Reference for UnlinkIdentity Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UnlinkIdentityAsync(Amazon.CognitoIdentity.Model.UnlinkIdentityRequest,System.Threading.CancellationToken)">
             <summary>
@@ -6499,31 +5401,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkIdentity">REST API Reference for UnlinkIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UntagResource(Amazon.CognitoIdentity.Model.UntagResourceRequest)">
-            <summary>
-            Removes the specified tags from an Amazon Cognito identity pool. You can use this
-            action up to 5 times per second, per account
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UntagResource service method.</param>
-            
-            <returns>The response from the UntagResource service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UntagResource">REST API Reference for UntagResource Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UntagResourceAsync(Amazon.CognitoIdentity.Model.UntagResourceRequest,System.Threading.CancellationToken)">
             <summary>
             Removes the specified tags from an Amazon Cognito identity pool. You can use this
@@ -6551,44 +5428,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UntagResource">REST API Reference for UntagResource Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UpdateIdentityPool(Amazon.CognitoIdentity.Model.UpdateIdentityPoolRequest)">
-            <summary>
-            Updates an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UpdateIdentityPool service method.</param>
-            
-            <returns>The response from the UpdateIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ConcurrentModificationException">
-            Thrown if there are parallel requests to modify a resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.LimitExceededException">
-            Thrown when the total number of user pools has exceeded a preset limit.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UpdateIdentityPool">REST API Reference for UpdateIdentityPool Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.AmazonCognitoIdentityClient.UpdateIdentityPoolAsync(Amazon.CognitoIdentity.Model.UpdateIdentityPoolRequest,System.Threading.CancellationToken)">
             <summary>
@@ -6664,60 +5503,6 @@
              </para>
              </summary>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.CreateIdentityPool(Amazon.CognitoIdentity.Model.CreateIdentityPoolRequest)">
-            <summary>
-            Creates a new identity pool. The identity pool is a store of user identity information
-            that is specific to your AWS account. The limit on identity pools is 60 per account.
-            The keys for <code>SupportedLoginProviders</code> are as follows:
-            
-             <ul> <li> 
-            <para>
-            Facebook: <code>graph.facebook.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Google: <code>accounts.google.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Amazon: <code>www.amazon.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Twitter: <code>api.twitter.com</code> 
-            </para>
-             </li> <li> 
-            <para>
-            Digits: <code>www.digits.com</code> 
-            </para>
-             </li> </ul> 
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the CreateIdentityPool service method.</param>
-            
-            <returns>The response from the CreateIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.LimitExceededException">
-            Thrown when the total number of user pools has exceeded a preset limit.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/CreateIdentityPool">REST API Reference for CreateIdentityPool Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.CreateIdentityPoolAsync(Amazon.CognitoIdentity.Model.CreateIdentityPoolRequest,System.Threading.CancellationToken)">
             <summary>
             Creates a new identity pool. The identity pool is a store of user identity information
@@ -6775,30 +5560,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/CreateIdentityPool">REST API Reference for CreateIdentityPool Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DeleteIdentities(Amazon.CognitoIdentity.Model.DeleteIdentitiesRequest)">
-            <summary>
-            Deletes identities from an identity pool. You can specify a list of 1-60 identities
-            that you want to delete.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DeleteIdentities service method.</param>
-            
-            <returns>The response from the DeleteIdentities service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentities">REST API Reference for DeleteIdentities Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DeleteIdentitiesAsync(Amazon.CognitoIdentity.Model.DeleteIdentitiesRequest,System.Threading.CancellationToken)">
             <summary>
             Deletes identities from an identity pool. You can specify a list of 1-60 identities
@@ -6825,66 +5586,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentities">REST API Reference for DeleteIdentities Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DeleteIdentityPool(System.String)">
-            <summary>
-            Deletes an identity pool. Once a pool is deleted, users will not be able to authenticate
-            with the pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            
-            <returns>The response from the DeleteIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentityPool">REST API Reference for DeleteIdentityPool Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DeleteIdentityPool(Amazon.CognitoIdentity.Model.DeleteIdentityPoolRequest)">
-            <summary>
-            Deletes an identity pool. Once a pool is deleted, users will not be able to authenticate
-            with the pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DeleteIdentityPool service method.</param>
-            
-            <returns>The response from the DeleteIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentityPool">REST API Reference for DeleteIdentityPool Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DeleteIdentityPoolAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -6952,66 +5653,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DeleteIdentityPool">REST API Reference for DeleteIdentityPool Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DescribeIdentity(System.String)">
-            <summary>
-            Returns metadata related to the given identity, including when the identity was created
-            and any associated linked logins.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            
-            <returns>The response from the DescribeIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentity">REST API Reference for DescribeIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DescribeIdentity(Amazon.CognitoIdentity.Model.DescribeIdentityRequest)">
-            <summary>
-            Returns metadata related to the given identity, including when the identity was created
-            and any associated linked logins.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DescribeIdentity service method.</param>
-            
-            <returns>The response from the DescribeIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentity">REST API Reference for DescribeIdentity Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DescribeIdentityAsync(System.String,System.Threading.CancellationToken)">
             <summary>
             Returns metadata related to the given identity, including when the identity was created
@@ -7078,66 +5719,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentity">REST API Reference for DescribeIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DescribeIdentityPool(System.String)">
-            <summary>
-            Gets details about a particular identity pool, including the pool name, ID description,
-            creation date, and current number of users.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            
-            <returns>The response from the DescribeIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentityPool">REST API Reference for DescribeIdentityPool Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DescribeIdentityPool(Amazon.CognitoIdentity.Model.DescribeIdentityPoolRequest)">
-            <summary>
-            Gets details about a particular identity pool, including the pool name, ID description,
-            creation date, and current number of users.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the DescribeIdentityPool service method.</param>
-            
-            <returns>The response from the DescribeIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentityPool">REST API Reference for DescribeIdentityPool Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.DescribeIdentityPoolAsync(System.String,System.Threading.CancellationToken)">
             <summary>
             Gets details about a particular identity pool, including the pool name, ID description,
@@ -7203,133 +5784,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/DescribeIdentityPool">REST API Reference for DescribeIdentityPool Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetCredentialsForIdentity(System.String)">
-            <summary>
-            Returns credentials for the provided identity ID. Any provided logins will be validated
-            against supported login providers. If the token is for cognito-identity.amazonaws.com,
-            it will be passed through to AWS Security Token Service with the appropriate role
-            for the token.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            
-            <returns>The response from the GetCredentialsForIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException">
-            Thrown if the identity pool has no role associated for the given auth type (auth/unauth)
-            or if the AssumeRole fails.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetCredentialsForIdentity(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            Returns credentials for the provided identity ID. Any provided logins will be validated
-            against supported login providers. If the token is for cognito-identity.amazonaws.com,
-            it will be passed through to AWS Security Token Service with the appropriate role
-            for the token.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            <param name="logins">A set of optional name-value pairs that map provider names to provider tokens. The name-value pair will follow the syntax "provider_name": "provider_user_identifier". Logins should not be specified when trying to get credentials for an unauthenticated identity. The Logins parameter is required when using identities associated with external identity providers such as FaceBook. For examples of <code>Logins</code> maps, see the code examples in the <a href="http://docs.aws.amazon.com/cognito/latest/developerguide/external-identity-providers.html">External Identity Providers</a> section of the Amazon Cognito Developer Guide.</param>
-            
-            <returns>The response from the GetCredentialsForIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException">
-            Thrown if the identity pool has no role associated for the given auth type (auth/unauth)
-            or if the AssumeRole fails.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetCredentialsForIdentity(Amazon.CognitoIdentity.Model.GetCredentialsForIdentityRequest)">
-            <summary>
-            Returns credentials for the provided identity ID. Any provided logins will be validated
-            against supported login providers. If the token is for cognito-identity.amazonaws.com,
-            it will be passed through to AWS Security Token Service with the appropriate role
-            for the token.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetCredentialsForIdentity service method.</param>
-            
-            <returns>The response from the GetCredentialsForIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidIdentityPoolConfigurationException">
-            Thrown if the identity pool has no role associated for the given auth type (auth/unauth)
-            or if the AssumeRole fails.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetCredentialsForIdentityAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -7467,45 +5921,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetCredentialsForIdentity">REST API Reference for GetCredentialsForIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetId(Amazon.CognitoIdentity.Model.GetIdRequest)">
-            <summary>
-            Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit
-            linked account.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetId service method.</param>
-            
-            <returns>The response from the GetId service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.LimitExceededException">
-            Thrown when the total number of user pools has exceeded a preset limit.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetId">REST API Reference for GetId Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetIdAsync(Amazon.CognitoIdentity.Model.GetIdRequest,System.Threading.CancellationToken)">
             <summary>
             Generates (or retrieves) a Cognito ID. Supplying multiple logins will create an implicit
@@ -7547,70 +5962,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetId">REST API Reference for GetId Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetIdentityPoolRoles(System.String)">
-            <summary>
-            Gets the roles for an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            
-            <returns>The response from the GetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetIdentityPoolRoles">REST API Reference for GetIdentityPoolRoles Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetIdentityPoolRoles(Amazon.CognitoIdentity.Model.GetIdentityPoolRolesRequest)">
-            <summary>
-            Gets the roles for an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetIdentityPoolRoles service method.</param>
-            
-            <returns>The response from the GetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetIdentityPoolRoles">REST API Reference for GetIdentityPoolRoles Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetIdentityPoolRolesAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -7681,88 +6032,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetIdentityPoolRoles">REST API Reference for GetIdentityPoolRoles Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetOpenIdToken(System.String)">
-            <summary>
-            Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned
-            by <a>GetId</a>. You can optionally add additional logins for the identity. Supplying
-            multiple logins creates an implicit link.
-            
-             
-            <para>
-            The OpenId token is valid for 10 minutes.
-            </para>
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityId">A unique identifier in the format REGION:GUID.</param>
-            
-            <returns>The response from the GetOpenIdToken service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdToken">REST API Reference for GetOpenIdToken Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetOpenIdToken(Amazon.CognitoIdentity.Model.GetOpenIdTokenRequest)">
-            <summary>
-            Gets an OpenID token, using a known Cognito ID. This known Cognito ID is returned
-            by <a>GetId</a>. You can optionally add additional logins for the identity. Supplying
-            multiple logins creates an implicit link.
-            
-             
-            <para>
-            The OpenId token is valid for 10 minutes.
-            </para>
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetOpenIdToken service method.</param>
-            
-            <returns>The response from the GetOpenIdToken service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdToken">REST API Reference for GetOpenIdToken Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetOpenIdTokenAsync(System.String,System.Threading.CancellationToken)">
             <summary>
@@ -7852,55 +6121,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdToken">REST API Reference for GetOpenIdToken Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetOpenIdTokenForDeveloperIdentity(Amazon.CognitoIdentity.Model.GetOpenIdTokenForDeveloperIdentityRequest)">
-            <summary>
-            Registers (or retrieves) a Cognito <code>IdentityId</code> and an OpenID Connect token
-            for a user authenticated by your backend authentication process. Supplying multiple
-            logins will create an implicit linked account. You can only specify one developer
-            provider as part of the <code>Logins</code> map, which is linked to the identity pool.
-            The developer provider is the "domain" by which Cognito will refer to your users.
-            
-             
-            <para>
-            You can use <code>GetOpenIdTokenForDeveloperIdentity</code> to create a new identity
-            and to link new logins (that is, user credentials issued by a public provider or developer
-            provider) to an existing identity. When you want to create a new identity, the <code>IdentityId</code>
-            should be null. When you want to associate a new login with an existing authenticated/unauthenticated
-            identity, you can do so by providing the existing <code>IdentityId</code>. This API
-            will create the identity in the specified <code>IdentityPoolId</code>.
-            </para>
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the GetOpenIdTokenForDeveloperIdentity service method.</param>
-            
-            <returns>The response from the GetOpenIdTokenForDeveloperIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.DeveloperUserAlreadyRegisteredException">
-            The provided developer user identifier is already registered with Cognito under a
-            different identity ID.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdTokenForDeveloperIdentity">REST API Reference for GetOpenIdTokenForDeveloperIdentity Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.GetOpenIdTokenForDeveloperIdentityAsync(Amazon.CognitoIdentity.Model.GetOpenIdTokenForDeveloperIdentityRequest,System.Threading.CancellationToken)">
             <summary>
             Registers (or retrieves) a Cognito <code>IdentityId</code> and an OpenID Connect token
@@ -7953,35 +6173,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/GetOpenIdTokenForDeveloperIdentity">REST API Reference for GetOpenIdTokenForDeveloperIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.ListIdentities(Amazon.CognitoIdentity.Model.ListIdentitiesRequest)">
-            <summary>
-            Lists the identities in an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the ListIdentities service method.</param>
-            
-            <returns>The response from the ListIdentities service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentities">REST API Reference for ListIdentities Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.ListIdentitiesAsync(Amazon.CognitoIdentity.Model.ListIdentitiesRequest,System.Threading.CancellationToken)">
             <summary>
             Lists the identities in an identity pool.
@@ -8014,35 +6205,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentities">REST API Reference for ListIdentities Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.ListIdentityPools(Amazon.CognitoIdentity.Model.ListIdentityPoolsRequest)">
-            <summary>
-            Lists all of the Cognito identity pools registered for your account.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the ListIdentityPools service method.</param>
-            
-            <returns>The response from the ListIdentityPools service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentityPools">REST API Reference for ListIdentityPools Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.ListIdentityPoolsAsync(Amazon.CognitoIdentity.Model.ListIdentityPoolsRequest,System.Threading.CancellationToken)">
             <summary>
             Lists all of the Cognito identity pools registered for your account.
@@ -8074,40 +6236,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListIdentityPools">REST API Reference for ListIdentityPools Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.ListTagsForResource(Amazon.CognitoIdentity.Model.ListTagsForResourceRequest)">
-            <summary>
-            Lists the tags that are assigned to an Amazon Cognito identity pool.
-            
-             
-            <para>
-            A tag is a label that you can apply to identity pools to categorize and manage them
-            in different ways, such as by purpose, owner, environment, or other criteria.
-            </para>
-             
-            <para>
-            You can use this action up to 10 times per second, per account.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the ListTagsForResource service method.</param>
-            
-            <returns>The response from the ListTagsForResource service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListTagsForResource">REST API Reference for ListTagsForResource Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.ListTagsForResourceAsync(Amazon.CognitoIdentity.Model.ListTagsForResourceRequest,System.Threading.CancellationToken)">
             <summary>
@@ -8145,54 +6273,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/ListTagsForResource">REST API Reference for ListTagsForResource Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.LookupDeveloperIdentity(Amazon.CognitoIdentity.Model.LookupDeveloperIdentityRequest)">
-            <summary>
-            Retrieves the <code>IdentityID</code> associated with a <code>DeveloperUserIdentifier</code>
-            or the list of <code>DeveloperUserIdentifier</code> values associated with an <code>IdentityId</code>
-            for an existing identity. Either <code>IdentityID</code> or <code>DeveloperUserIdentifier</code>
-            must not be null. If you supply only one of these values, the other value will be
-            searched in the database and returned as a part of the response. If you supply both,
-            <code>DeveloperUserIdentifier</code> will be matched against <code>IdentityID</code>.
-            If the values are verified against the database, the response returns both values
-            and is the same as the request. Otherwise a <code>ResourceConflictException</code>
-            is thrown.
-            
-             
-            <para>
-             <code>LookupDeveloperIdentity</code> is intended for low-throughput control plane
-            operations: for example, to enable customer service to locate an identity ID by username.
-            If you are using it for higher-volume operations such as user authentication, your
-            requests are likely to be throttled. <a>GetOpenIdTokenForDeveloperIdentity</a> is
-            a better option for higher-volume operations for user authentication.
-            </para>
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the LookupDeveloperIdentity service method.</param>
-            
-            <returns>The response from the LookupDeveloperIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/LookupDeveloperIdentity">REST API Reference for LookupDeveloperIdentity Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.LookupDeveloperIdentityAsync(Amazon.CognitoIdentity.Model.LookupDeveloperIdentityRequest,System.Threading.CancellationToken)">
             <summary>
@@ -8245,50 +6325,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/LookupDeveloperIdentity">REST API Reference for LookupDeveloperIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.MergeDeveloperIdentities(Amazon.CognitoIdentity.Model.MergeDeveloperIdentitiesRequest)">
-            <summary>
-            Merges two users having different <code>IdentityId</code>s, existing in the same identity
-            pool, and identified by the same developer provider. You can use this action to request
-            that discrete users be merged and identified as a single user in the Cognito environment.
-            Cognito associates the given source user (<code>SourceUserIdentifier</code>) with
-            the <code>IdentityId</code> of the <code>DestinationUserIdentifier</code>. Only developer-authenticated
-            users can be merged. If the users to be merged are associated with the same public
-            provider, but as two different users, an exception will be thrown.
-            
-             
-            <para>
-            The number of linked logins is limited to 20. So, the number of linked logins for
-            the source user, <code>SourceUserIdentifier</code>, and the destination user, <code>DestinationUserIdentifier</code>,
-            together should not be larger than 20. Otherwise, an exception will be thrown.
-            </para>
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the MergeDeveloperIdentities service method.</param>
-            
-            <returns>The response from the MergeDeveloperIdentities service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/MergeDeveloperIdentities">REST API Reference for MergeDeveloperIdentities Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.MergeDeveloperIdentitiesAsync(Amazon.CognitoIdentity.Model.MergeDeveloperIdentitiesRequest,System.Threading.CancellationToken)">
             <summary>
             Merges two users having different <code>IdentityId</code>s, existing in the same identity
@@ -8335,79 +6371,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/MergeDeveloperIdentities">REST API Reference for MergeDeveloperIdentities Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.SetIdentityPoolRoles(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
-            <summary>
-            Sets the roles for an identity pool. These roles are used when making calls to <a>GetCredentialsForIdentity</a>
-            action.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="identityPoolId">An identity pool ID in the format REGION:GUID.</param>
-            <param name="roles">The map of roles associated with this pool. For a given role, the key will be either "authenticated" or "unauthenticated" and the value will be the Role ARN.</param>
-            
-            <returns>The response from the SetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ConcurrentModificationException">
-            Thrown if there are parallel requests to modify a resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/SetIdentityPoolRoles">REST API Reference for SetIdentityPoolRoles Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.SetIdentityPoolRoles(Amazon.CognitoIdentity.Model.SetIdentityPoolRolesRequest)">
-            <summary>
-            Sets the roles for an identity pool. These roles are used when making calls to <a>GetCredentialsForIdentity</a>
-            action.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the SetIdentityPoolRoles service method.</param>
-            
-            <returns>The response from the SetIdentityPoolRoles service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ConcurrentModificationException">
-            Thrown if there are parallel requests to modify a resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/SetIdentityPoolRoles">REST API Reference for SetIdentityPoolRoles Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.SetIdentityPoolRolesAsync(System.String,System.Collections.Generic.Dictionary{System.String,System.String},System.Threading.CancellationToken)">
             <summary>
@@ -8488,53 +6451,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/SetIdentityPoolRoles">REST API Reference for SetIdentityPoolRoles Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.TagResource(Amazon.CognitoIdentity.Model.TagResourceRequest)">
-            <summary>
-            Assigns a set of tags to an Amazon Cognito identity pool. A tag is a label that you
-            can use to categorize and manage identity pools in different ways, such as by purpose,
-            owner, environment, or other criteria.
-            
-             
-            <para>
-            Each tag consists of a key and value, both of which you define. A key is a general
-            category for more specific values. For example, if you have two versions of an identity
-            pool, one for testing and another for production, you might assign an <code>Environment</code>
-            tag key to both identity pools. The value of this key might be <code>Test</code> for
-            one identity pool and <code>Production</code> for the other.
-            </para>
-             
-            <para>
-            Tags are useful for cost tracking and access control. You can activate your tags so
-            that they appear on the Billing and Cost Management console, where you can track the
-            costs associated with your identity pools. In an IAM policy, you can constrain permissions
-            for identity pools based on specific tags or tag values.
-            </para>
-             
-            <para>
-            You can use this action up to 5 times per second, per account. An identity pool can
-            have as many as 50 tags.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the TagResource service method.</param>
-            
-            <returns>The response from the TagResource service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/TagResource">REST API Reference for TagResource Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.TagResourceAsync(Amazon.CognitoIdentity.Model.TagResourceRequest,System.Threading.CancellationToken)">
             <summary>
             Assigns a set of tags to an Amazon Cognito identity pool. A tag is a label that you
@@ -8585,41 +6501,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/TagResource">REST API Reference for TagResource Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UnlinkDeveloperIdentity(Amazon.CognitoIdentity.Model.UnlinkDeveloperIdentityRequest)">
-            <summary>
-            Unlinks a <code>DeveloperUserIdentifier</code> from an existing identity. Unlinked
-            developer users will be considered new identities next time they are seen. If, for
-            a given Cognito identity, you remove all federated identities as well as the developer
-            user identifier, the Cognito identity becomes inaccessible.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UnlinkDeveloperIdentity service method.</param>
-            
-            <returns>The response from the UnlinkDeveloperIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkDeveloperIdentity">REST API Reference for UnlinkDeveloperIdentity Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UnlinkDeveloperIdentityAsync(Amazon.CognitoIdentity.Model.UnlinkDeveloperIdentityRequest,System.Threading.CancellationToken)">
             <summary>
             Unlinks a <code>DeveloperUserIdentifier</code> from an existing identity. Unlinked
@@ -8657,43 +6538,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkDeveloperIdentity">REST API Reference for UnlinkDeveloperIdentity Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UnlinkIdentity(Amazon.CognitoIdentity.Model.UnlinkIdentityRequest)">
-            <summary>
-            Unlinks a federated identity from an existing account. Unlinked logins will be considered
-            new identities next time they are seen. Removing the last linked login will make this
-            identity inaccessible.
-            
-             
-            <para>
-            This is a public API. You do not need any credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UnlinkIdentity service method.</param>
-            
-            <returns>The response from the UnlinkIdentity service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ExternalServiceException">
-            An exception thrown when a dependent service such as Facebook or Twitter is not responding
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkIdentity">REST API Reference for UnlinkIdentity Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UnlinkIdentityAsync(Amazon.CognitoIdentity.Model.UnlinkIdentityRequest,System.Threading.CancellationToken)">
             <summary>
@@ -8735,31 +6579,6 @@
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UnlinkIdentity">REST API Reference for UnlinkIdentity Operation</seealso>
         </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UntagResource(Amazon.CognitoIdentity.Model.UntagResourceRequest)">
-            <summary>
-            Removes the specified tags from an Amazon Cognito identity pool. You can use this
-            action up to 5 times per second, per account
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UntagResource service method.</param>
-            
-            <returns>The response from the UntagResource service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UntagResource">REST API Reference for UntagResource Operation</seealso>
-        </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UntagResourceAsync(Amazon.CognitoIdentity.Model.UntagResourceRequest,System.Threading.CancellationToken)">
             <summary>
             Removes the specified tags from an Amazon Cognito identity pool. You can use this
@@ -8787,44 +6606,6 @@
             Thrown when a request is throttled.
             </exception>
             <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UntagResource">REST API Reference for UntagResource Operation</seealso>
-        </member>
-        <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UpdateIdentityPool(Amazon.CognitoIdentity.Model.UpdateIdentityPoolRequest)">
-            <summary>
-            Updates an identity pool.
-            
-             
-            <para>
-            You must use AWS Developer credentials to call this API.
-            </para>
-            </summary>
-            <param name="request">Container for the necessary parameters to execute the UpdateIdentityPool service method.</param>
-            
-            <returns>The response from the UpdateIdentityPool service method, as returned by CognitoIdentity.</returns>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ConcurrentModificationException">
-            Thrown if there are parallel requests to modify a resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InternalErrorException">
-            Thrown when the service encounters an error during processing the request.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.InvalidParameterException">
-            Thrown for missing or bad input parameter(s).
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.LimitExceededException">
-            Thrown when the total number of user pools has exceeded a preset limit.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.NotAuthorizedException">
-            Thrown when a user is not authorized to access the requested resource.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceConflictException">
-            Thrown when a user tries to use a login which is already linked to another account.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.ResourceNotFoundException">
-            Thrown when the requested resource (for example, a dataset or record) does not exist.
-            </exception>
-            <exception cref="T:Amazon.CognitoIdentity.Model.TooManyRequestsException">
-            Thrown when a request is throttled.
-            </exception>
-            <seealso href="http://docs.aws.amazon.com/goto/WebAPI/cognito-identity-2014-06-30/UpdateIdentityPool">REST API Reference for UpdateIdentityPool Operation</seealso>
         </member>
         <member name="M:Amazon.CognitoIdentity.IAmazonCognitoIdentity.UpdateIdentityPoolAsync(Amazon.CognitoIdentity.Model.UpdateIdentityPoolRequest,System.Threading.CancellationToken)">
             <summary>
