@@ -23,3 +23,6 @@ https://www.nuget.org/packages/AWSSDK.SecurityToken/3.3.102.17
 
 AWSSDK.DynamoDBv2
 https://www.nuget.org/packages/AWSSDK.DynamoDBv2/3.3.101.59
+
+AWSSDK.S3
+https://www.nuget.org/packages/AWSSDK.S3/3.3.104.20

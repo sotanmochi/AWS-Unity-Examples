@@ -13,5 +13,6 @@ namespace AWSUnity
         public string ClientSecret;
         public string IdentityPoolId;
         public string DynamoDBRegion;
+        public string S3Region;
     }
 }
